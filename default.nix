@@ -15,6 +15,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   "3dstool" = pkgs.callPackage ./pkgs/3dstool { };
+  lnshot = pkgs.callPackage ./pkgs/lnshot { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
