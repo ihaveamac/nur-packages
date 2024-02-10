@@ -27,6 +27,6 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     description = "An all-in-one tool for extracting/creating 3ds roms.";
     homepage = "https://github.com/dnasdw/3dstool";
-    license = license.mit;
+    license = licenses.mit;
   };
 }
