@@ -29,5 +29,6 @@ stdenv.mkDerivation rec {
     homepage = "https://github.com/dnasdw/3dstool";
     license = licenses.mit;
     platforms = platforms.all;
+    mainProgram = "3dstool";
   };
 }

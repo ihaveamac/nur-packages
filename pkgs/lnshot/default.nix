@@ -18,5 +18,6 @@ rustPlatform.buildRustPackage rec {
     homepage = "https://github.com/ticky/lnshot";
     license = licenses.mit;
     platforms = platforms.linux;
+    mainProgram = "lnshot";
   };
 }

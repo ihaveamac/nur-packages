@@ -22,5 +22,6 @@ rustPlatform.buildRustPackage rec {
     homepage = "https://github.com/wwylele/save3ds";
     license = licenses.mit;
     platforms = platforms.all;
+    mainProgram = "save3ds_fuse";
   };
 }
