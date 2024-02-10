@@ -23,4 +23,10 @@ stdenv.mkDerivation rec {
     cp ../bin/Release/3dstool $out/bin/
     cp ../bin/ignore_3dstool.txt $out/bin/
   ";
+
+  meta = with lib; {
+    description = "An all-in-one tool for extracting/creating 3ds roms.";
+    homepage = "https://github.com/dnasdw/3dstool";
+    license = license.mit;
+  };
 }
