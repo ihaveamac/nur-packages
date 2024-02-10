@@ -10,3 +10,4 @@
 
 * 3dstool-1.2.6
 * lnshot-0.1.3
+* save3ds-1.3.1-beta
