@@ -11,3 +11,4 @@ My personal [NUR](https://github.com/nix-community/NUR) repository.
 * save3ds-dev-2023-03-28
 * cleaninty-0.1.3
 * rvthtool-dev-2024-01-24
+* themethod3-2024-02-24
