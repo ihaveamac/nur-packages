@@ -28,8 +28,6 @@ stdenv.mkDerivation rec {
     homepage = "https://gitlab.com/Wolfvak/BAX";
     license = licenses.mit;
     platforms = platforms.all;
-    # only tested on macOS at the moment
-    broken = !stdenv.isDarwin;
     mainProgram = "makebax";
   };
 }
