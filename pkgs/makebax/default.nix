@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   };
   sourceRoot = "${src.name}/makebax";
 
-  patches = [ ./fix-bad-alloc.patch ];
+  patches = [ ./fix-bad-alloc.patch ./fix-array.patch ];
 
   NIX_CFLAGS_COMPILE = "-isystem ${opencv}/include/opencv4";
 
