@@ -15,3 +15,5 @@ Darwin/macOS builds are manually pushed by me to cachix occasionally. Usually wh
 * rvthtool-dev-2024-01-24
 * themethod3-2024-04-20
 * makebax-2019-01-22
+* ctrtool-1.2.0
+* makerom-0.18.4

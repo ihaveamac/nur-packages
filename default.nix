@@ -21,6 +21,8 @@ rec {
   rvthtool = pkgs.callPackage ./pkgs/rvthtool { };
   themethod3 = pkgs.callPackage ./pkgs/themethod3 { };
   makebax = pkgs.callPackage ./pkgs/makebax { };
+  ctrtool = pkgs.callPackage ./pkgs/ctrtool { };
+  makerom = pkgs.callPackage ./pkgs/makerom { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 
