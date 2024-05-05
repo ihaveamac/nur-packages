@@ -17,6 +17,7 @@ Darwin/macOS builds are manually pushed by me to cachix occasionally. Usually wh
 * makebax-2019-01-22
 * ctrtool-1.2.0
 * makerom-0.18.4
+* kwin-move-window-1.1.1
 
 ## Home Manager modules
 

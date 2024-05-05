@@ -25,6 +25,8 @@ rec {
   makebax = pkgs.callPackage ./pkgs/makebax { };
   ctrtool = pkgs.callPackage ./pkgs/ctrtool { };
   makerom = pkgs.callPackage ./pkgs/makerom { };
+
+  kwin-move-window = pkgs.callPackage ./pkgs/kwin-move-window { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 
