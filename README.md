@@ -24,7 +24,7 @@ Attributes listed on [the NUR](https://nur.nix-community.org/repos/ihaveamac/)
 * mediawiki-1.40.4
 * mediawiki-1.41.2
 * mediawiki-1.42.1
-* homebox-bin-0.10.3
+* homebox-bin-0.12.1
 * 3dslink-0.6.1 (as \_3dslink attribute)
 * discordwikibot-2024-07-01
 
