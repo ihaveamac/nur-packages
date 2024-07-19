@@ -27,6 +27,7 @@ Attributes listed on [the NUR](https://nur.nix-community.org/repos/ihaveamac/)
 * homebox-bin-0.12.1
 * 3dslink-0.6.1 (as \_3dslink attribute)
 * discordwikibot-2024-07-01
+* sd-format-linux-0.2.0
 
 ## Home Manager modules
 
