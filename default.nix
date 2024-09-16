@@ -30,6 +30,7 @@ rec {
   _3dslink = pkgs.callPackage ./pkgs/3dslink { };
   discordwikibot = pkgs.callPackage ./pkgs/discordwikibot { };
   sd-format-linux = pkgs.callPackage ./pkgs/sd-format-linux { };
+  unxip = pkgs.callPackage ./pkgs/unxip { };
 
   mediawiki_1_39 = pkgs.callPackage ./pkgs/mediawiki {
     version = "1.39.8";
