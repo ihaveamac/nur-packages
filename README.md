@@ -14,7 +14,7 @@ Attributes listed on [the NUR](https://nur.nix-community.org/repos/ihaveamac/)
 * lnshot-0.1.3
 * save3ds-dev-2023-03-28
 * cleaninty-0.1.3
-* rvthtool-dev-2024-01-24
+* rvthtool-dev-2024-05-17
 * themethod3-2024-04-20
 * makebax-2019-01-22
 * ctrtool-1.2.0
