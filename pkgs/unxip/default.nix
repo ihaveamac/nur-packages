@@ -32,6 +32,8 @@ swiftPackages.swift.stdenv.mkDerivation rec {
     homepage = "https://github.com/saagarjha/unxip";
     license = licenses.lgpl3;
     platforms = platforms.unix;
+    # funny that this is broken on macOS, but there's build errors i don't know how to fix yet
+    broken = stdenv.isDarwin;
     mainProgram = "unxip";
   };
 }
