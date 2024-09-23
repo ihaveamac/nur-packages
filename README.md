@@ -28,6 +28,7 @@ Attributes listed on [the NUR](https://nur.nix-community.org/repos/ihaveamac/)
 * discordwikibot-2024-09-12
 * sd-format-linux-0.2.0
 * unxip-3.0
+* corgi3ds-2020-07-15
 
 ## Home Manager modules
 
