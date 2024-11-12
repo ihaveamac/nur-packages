@@ -25,8 +25,6 @@ rec {
   makebax = pkgs.callPackage ./pkgs/makebax { };
   ctrtool = pkgs.callPackage ./pkgs/ctrtool { };
   makerom = pkgs.callPackage ./pkgs/makerom { };
-  # causes an issue with the flake for some reason
-  #homebox-bin = throw "homebox is now in nixpkgs-unstable and nixos-unstable: https://github.com/NixOS/nixpkgs/pull/320060";
   _3dslink = pkgs.callPackage ./pkgs/3dslink { };
   discordwikibot = pkgs.callPackage ./pkgs/discordwikibot { };
   sd-format-linux = pkgs.callPackage ./pkgs/sd-format-linux { };
