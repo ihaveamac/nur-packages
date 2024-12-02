@@ -32,7 +32,6 @@ rec {
   corgi3ds = pkgs.libsForQt5.callPackage ./pkgs/corgi3ds { };
   ftpd = pkgs.callPackage ./pkgs/ftpd { };
   darctool = pkgs.callPackage ./pkgs/darctool { };
-  bclimtool = pkgs.callPackage ./pkgs/bclimtool { };
 
   mediawiki_1_39 = pkgs.callPackage ./pkgs/mediawiki {
     version = "1.39.10";
