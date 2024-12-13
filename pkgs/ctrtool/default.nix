@@ -27,8 +27,9 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     license = licenses.mit;
     description = "A tool to extract data from a 3ds rom";
+    homepage = "https://github.com/3DSGuy/Project_CTR";
     platforms = platforms.all;
-    maintainers = [ maintainers.marius851000 ];
+    mainProgram = "ctrtool";
   };
 
 }

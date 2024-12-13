@@ -28,6 +28,8 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     license = licenses.mit;
     description = "make 3ds roms";
+    homepage = "https://github.com/3DSGuy/Project_CTR";
     platforms = platforms.all;
+    mainProgram = "ctrtool";
   };
 }
