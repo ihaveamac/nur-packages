@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
   sourceRoot = "source/ctrtool";
 
   preBuild = ''
-    make -j deps CC=${stdenv.cc.targetPrefix}cc CXX=${stdenv.cc.targetPrefix}c++
+    make -j$NIX_BUILD_CORES deps CC=${stdenv.cc.targetPrefix}cc CXX=${stdenv.cc.targetPrefix}c++
   '';
   makeFlags = [ "CC=${stdenv.cc.targetPrefix}cc" "CXX=${stdenv.cc.targetPrefix}c++" ];
   enableParallelBuilding = true;
