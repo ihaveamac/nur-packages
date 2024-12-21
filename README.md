@@ -19,7 +19,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [corgi3ds-2020-07-15](https://github.com/PSI-Rockin/Corgi3DS) | corgi3ds | An LLE dog-themed 3DS emulator |
 | [ctrtool-1.2.0](https://github.com/3DSGuy/Project_CTR) | ctrtool | A tool to extract data from a 3ds rom |
 | [darctool-1.2.0](https://github.com/dnasdw/darctool) | darctool | A tool for extracting/creating darc file. |
-| [discordwikibot-2024-11-11](https://github.com/stjohann/DiscordWikiBot) | discordwikibot | Discord bot for Wikimedia projects and MediaWiki wiki sites |
+| [discordwikibot-2024-12-20](https://github.com/stjohann/DiscordWikiBot) | discordwikibot | Discord bot for Wikimedia projects and MediaWiki wiki sites |
 | [ftpd-3.2.1](https://github.com/mtheall/ftpd) | ftpd | FTP Server for 3DS/Switch (and Linux) |
 | [kwin-move-window-1.1.1](https://github.com/Merrit/kwin-move-window) | kwin-move-window | KWin script that adds shortcuts to move the active window with the keyboard |
 | [lnshot-0.1.3](https://github.com/ticky/lnshot) | lnshot | Symlink your Steam screenshots to a sensible place |
