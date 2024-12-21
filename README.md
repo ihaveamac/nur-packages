@@ -29,7 +29,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [mediawiki-1.40.4](https://www.mediawiki.org/) | mediawiki\_1\_40 | The collaborative editing software that runs Wikipedia |
 | [mediawiki-1.41.5](https://www.mediawiki.org/) | mediawiki\_1\_41 | The collaborative editing software that runs Wikipedia |
 | [mediawiki-1.42.4](https://www.mediawiki.org/) | mediawiki\_1\_42 | The collaborative editing software that runs Wikipedia |
-| [mediawiki-1.43.0-rc.0](https://www.mediawiki.org/) | mediawiki\_1\_43 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-1.43.0](https://www.mediawiki.org/) | mediawiki\_1\_43 | The collaborative editing software that runs Wikipedia |
 | [rvthtool-dev-2024-12-15](https://github.com/GerbilSoft/rvthtool) | rvthtool | Open-source tool for managing RVT-H Reader consoles |
 | [save3ds-dev-2023-03-28](https://github.com/wwylele/save3ds) | save3ds | Extract/Import/FUSE for 3DS save/extdata/database. |
 | [sd-format-linux-0.2.0](https://github.com/profi200/sdFormatLinux) | sd-format-linux | Properly format SD cards under Linux. |
