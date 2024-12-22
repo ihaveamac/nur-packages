@@ -40,6 +40,8 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 
 The default overlay will add all the packages above in the `pkgs.hax` namespace, e.g. `pkgs.hax.save3ds`.
 
+There is a NixOS module to automatically add this overlay as `nixosModules.overlay`.
+
 ## Home Manager modules
 
 ### services.lnshot.enable
