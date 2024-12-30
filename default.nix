@@ -24,7 +24,6 @@ rec {
   themethod3 = pkgs.callPackage ./pkgs/themethod3 { };
   makebax = pkgs.callPackage ./pkgs/makebax { };
   ctrtool = pkgs.callPackage ./pkgs/ctrtool { };
-  ctrtool-dev = pkgs.callPackage ./pkgs/ctrtool-dev { };
   makerom = pkgs.callPackage ./pkgs/makerom { };
   _3dslink = pkgs.callPackage ./pkgs/3dslink { };
   discordwikibot = pkgs.callPackage ./pkgs/discordwikibot { };
