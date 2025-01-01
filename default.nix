@@ -33,6 +33,7 @@ rec {
   ftpd = pkgs.callPackage ./pkgs/ftpd { };
   darctool = pkgs.callPackage ./pkgs/darctool { };
   bannertool = pkgs.callPackage ./pkgs/bannertool { };
+  wifiboot-host = pkgs.callPackage ./pkgs/wifiboot-host { };
 
   mediawiki_1_39 = pkgs.callPackage ./pkgs/mediawiki {
     version = "1.39.11";
