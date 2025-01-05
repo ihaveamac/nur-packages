@@ -1,6 +1,8 @@
-{ lib, stdenv, callPackage, fetchFromGitHub, pkg-config, cmake, boost, cryptopp, fuse }:
+# TODO: remove stdenv override when 24.11 goes eol
+{ lib, stdenv, clang19Stdenv, gcc14Stdenv, callPackage, fetchFromGitHub, pkg-config, cmake, boost, cryptopp, fuse }:
 
 let
+  realStdenv = if stdenv.cc.isClang then clang19Stdenv else gcc14Stdenv;
   wfslib = fetchFromGitHub {
     owner = "koolkdev";
     repo = "wfslib";
@@ -8,7 +10,7 @@ let
     hash = "sha256-WwBQMzPosh57urL09zFyuR5BZcnOAwD2sLh9M9WHFeQ=";
   };
 in
-stdenv.mkDerivation rec {
+realStdenv.mkDerivation rec {
   pname = "wfs-tools";
   version = "1.2.3-unstable-2024-12-06";
 
@@ -30,7 +32,7 @@ stdenv.mkDerivation rec {
     chmod -R u+w ./wfslib
   '';
 
-  cmakeFlags = (if stdenv.isDarwin then [
+  cmakeFlags = (if realStdenv.isDarwin then [
     (lib.cmakeFeature "FUSE_INCLUDE_DIR" "${fuse}/include")
     (lib.cmakeFeature "FUSE_LIBRARIES" "/usr/local/lib/libfuse.2.dylib")
   ] else [
