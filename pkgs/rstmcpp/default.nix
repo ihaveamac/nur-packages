@@ -12,9 +12,13 @@ stdenv.mkDerivation rec {
     fetchSubmodules = true;
   };
 
+  makeFlags = [
+    "CXX=${stdenv.cc.targetPrefix}c++"
+  ];
+
   installPhase = ''
     mkdir -p $out/bin
-    cp rstmcpp $out/bin
+    cp rstmcpp${stdenv.targetPlatform.extensions.executable} $out/bin
   '';
 
   meta = with lib; {
