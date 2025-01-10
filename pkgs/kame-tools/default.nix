@@ -43,7 +43,7 @@ stdenv.mkDerivation rec {
     description = "Fork of bannertools that includes tools for making 3DS themes.";
     homepage = "https://gitlab.com/beelzy/kame-tools";
     license = licenses.mit;
-    platforms = platforms.all;
+    platforms = platforms.unix;
     mainProgram = "kame-tools";
   };
 }
