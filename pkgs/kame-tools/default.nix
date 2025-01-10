@@ -22,8 +22,21 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [ fakeZip ];
 
+  # gotta patch the patch!
+  prePatch = lib.optionalString stdenv.isAarch64 ''
+    substituteInPlace aarch64.patch \
+      --replace-fail /make_base "/buildtools/make_base"
+  '';
+
   patches = lib.optional stdenv.isAarch64 [
-    "${src}/aarch64.patch"
+    "aarch64.patch"
+  ];
+
+  makeFlags = [
+    "CC=${stdenv.cc.targetPrefix}cc"
+    "CXX=${stdenv.cc.targetPrefix}c++"
+    "AR=${stdenv.cc.targetPrefix}ar"
+    "AS=${stdenv.cc.targetPrefix}as"
   ];
 
   # setting VERSION_PARTS wasn't working
