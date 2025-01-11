@@ -1,4 +1,4 @@
-{ lib, fetchFromGitHub, stdenv, rustPlatform, fuse, pkg-config }:
+{ lib, fetchFromGitHub, stdenv, rustPlatform, fuse, pkg-config, withFUSE ? !stdenv.targetPlatform.isWindows }:
 
 rustPlatform.buildRustPackage rec {
   pname = "save3ds";
@@ -12,8 +12,9 @@ rustPlatform.buildRustPackage rec {
   };
 
   cargoHash = "sha256-knihCvFnMfHdZVlwcbKf22Nbu0L/xSVVRHN8fFmrX5Y=";
+  buildNoDefaultFeatures = !withFUSE;
 
-  buildInputs = lib.optional (!stdenv.targetPlatform.isWindows) fuse;
+  buildInputs = lib.optional (withFUSE) fuse;
   nativeBuildInputs = [ pkg-config ];
 
   meta = with lib; {
