@@ -10,6 +10,9 @@ stdenvNoCC.mkDerivation rec {
     stripRoot = false;
   };
 
+  # fixup breaks the signature, causing macOS to think it's corrupt
+  dontFixup = true;
+
   installPhase = ''
     mkdir -p $out/Applications $out/bin
     cp -R LaunchControl.app $out/Applications/LaunchControl.app
