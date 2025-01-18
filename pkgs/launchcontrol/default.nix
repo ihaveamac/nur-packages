@@ -15,7 +15,6 @@ stdenvNoCC.mkDerivation rec {
   # wrapper based on:
   # https://github.com/NixOS/nixpkgs/blob/5df43628fdf08d642be8ba5b3625a6c70731c19c/pkgs/by-name/it/iterm2/package.nix#L29
   installPhase = ''
-    pwd
     runHook preInstall
     APP_DIR="$out/Applications/LaunchControl.app"
     mkdir -p "$APP_DIR" $out/bin
@@ -38,5 +37,6 @@ stdenvNoCC.mkDerivation rec {
       "x86_64-darwin"
       "aarch64-darwin"
     ];
+    mainProgram = "launchcontrol";
   };
 }
