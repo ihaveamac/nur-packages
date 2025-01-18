@@ -1,7 +1,7 @@
 { lib, stdenvNoCC, fetchzip }:
 
 stdenvNoCC.mkDerivation rec {
-  name = "xiv-on-mac";
+  pname = "xiv-on-mac";
   version = "5.0.2";
 
   src = fetchzip {
