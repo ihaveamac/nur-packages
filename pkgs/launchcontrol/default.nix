@@ -11,8 +11,9 @@ stdenvNoCC.mkDerivation rec {
   };
 
   installPhase = ''
-    mkdir -p $out/Applications
+    mkdir -p $out/Applications $out/bin
     cp -R LaunchControl.app $out/Applications/LaunchControl.app
+    ln -s $out/Applications/LaunchControl.app/Contents/MacOS/fdautil $out/bin/fdautil
   '';
 
   meta = with lib; {
