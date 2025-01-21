@@ -37,7 +37,7 @@ realStdenv.mkDerivation rec {
     (lib.cmakeFeature "FUSE_LIBRARIES" "/usr/local/lib/libfuse.2.dylib")
   ] else [
     (lib.cmakeFeature "FUSE_INCLUDE_DIR" "${fuse.dev}/include")
-    (lib.cmakeFeature "FUSE_LIBRARIES" "${fuse.out}/lib/libfuse.so")
+    (lib.cmakeFeature "FUSE_LIBRARIES" "${fuse.out}/lib/libfuse${stdenv.hostPlatform.extensions.library}")
   ]);
 
   installPhase = ''
