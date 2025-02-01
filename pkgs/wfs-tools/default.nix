@@ -32,7 +32,7 @@ realStdenv.mkDerivation rec {
   patches = [
     ./wfslib-use-pkg-config-for-cryptopp.patch
     ./remove-fuse-check.patch
-  ];
+  ] ++ lib.optional (!withFUSE) ./remove-wfs-fuse.patch;
 
   prePatch = ''
     rmdir wfslib
@@ -64,7 +64,7 @@ realStdenv.mkDerivation rec {
     homepage = "https://github.com/koolkdev/wfs-tools";
     license = licenses.mit;
     platforms = platforms.all;
-    # it's actually xz that is broken due to _WIN32_WINNT needing to be Windows 7
+    # boost fails due to "dlfcn.h" missing or something
     broken = stdenv.hostPlatform.isWindows;
   };
 }
