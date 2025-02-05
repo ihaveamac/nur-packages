@@ -5,7 +5,7 @@ let
 in
 stdenv.mkDerivation rec {
   name = "3beans";
-  ver = "unstable";
+  version = "0-unstable-2025-02-05";
 
   src = fetchFromGitHub {
     owner = "Hydr8gon";
