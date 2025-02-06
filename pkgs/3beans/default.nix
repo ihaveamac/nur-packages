@@ -1,20 +1,32 @@
-{ lib, gccStdenv, fetchFromGitHub, pkg-config, wxGTK32, portaudio, libGL }:
+{
+  lib,
+  gccStdenv,
+  fetchFromGitHub,
+  pkg-config,
+  wxGTK32,
+  portaudio,
+  libGL,
+}:
 
 let
   stdenv = gccStdenv;
 in
 stdenv.mkDerivation rec {
-  name = "3beans";
-  version = "0-unstable-2025-02-05";
+  pname = "3beans";
+  version = "0-unstable-2025-02-06";
 
   src = fetchFromGitHub {
     owner = "Hydr8gon";
     repo = "3Beans";
-    rev = "f65d0fa078f561050b3a76ac8771f676e8ec2022";
-    hash = "sha256-RzJSZJhYjYxT07TzqKIRUqda7ExAKqGPSoqhg8aKiOw=";
+    rev = "0f01c3ac4d0c4a1ba1d029c043d28d9280db46b2";
+    hash = "sha256-xK2KUz6r1effwnjWFphkxh8A/jULTkpLD4rSS41X0Eo=";
   };
 
-  buildInputs = [ wxGTK32 portaudio libGL ];
+  buildInputs = [
+    wxGTK32
+    portaudio
+    libGL
+  ];
   nativeBuildInputs = [ pkg-config ];
 
   makeFlags = [ "DESTDIR=${placeholder "out"}" ];
