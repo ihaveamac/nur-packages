@@ -34,7 +34,7 @@ stdenv.mkDerivation rec {
   '';
 
   installPhase = ''
-    mkdir $out/bin $out/share/applications
+    mkdir -p $out/bin $out/share/applications
     cp 3beans $out/bin
   '' + (lib.optionalString (!stdenv.isDarwin) ''
     cp com.hydra.threebeans.desktop $out/share/applications
