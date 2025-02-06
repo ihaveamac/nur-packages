@@ -1,6 +1,6 @@
 {
   lib,
-  gccStdenv,
+  stdenv,
   fetchFromGitHub,
   pkg-config,
   wxGTK32,
@@ -8,9 +8,6 @@
   libGL,
 }:
 
-let
-  stdenv = gccStdenv;
-in
 stdenv.mkDerivation rec {
   pname = "3beans";
   version = "0-unstable-2025-02-06";
@@ -30,6 +27,11 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ pkg-config ];
 
   makeFlags = [ "DESTDIR=${placeholder "out"}" ];
+
+  postPatch = ''
+    substituteInPlace Makefile \
+      --replace-fail g++ "\$(CXX)"
+  '';
 
   meta = with lib; {
     license = licenses.gpl3;
