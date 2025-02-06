@@ -33,12 +33,18 @@ stdenv.mkDerivation rec {
       --replace-fail g++ "\$(CXX)"
   '';
 
+  installPhase = ''
+    mkdir $out/bin $out/share/applications
+    cp 3beans $out/bin
+  '' + (lib.optionalString (!stdenv.isDarwin) ''
+    cp com.hydra.threebeans.desktop $out/share/applications
+  '';
+
   meta = with lib; {
     license = licenses.gpl3;
     description = "A low-level 3DS emulator (maybe)";
     homepage = "https://github.com/Hydr8gon/3Beans";
     platforms = platforms.all;
-    broken = stdenv.isDarwin;
     mainProgram = "3beans";
   };
 }
