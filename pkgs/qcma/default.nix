@@ -1,7 +1,19 @@
-{ lib, pkgs, stdenv, fetchFromGitHub, git, qmake, wrapQtAppsHook, pkg-config, ffmpeg_4, libnotify, qtbase }:
+{
+  lib,
+  pkgs,
+  stdenv,
+  fetchFromGitHub,
+  git,
+  qmake,
+  wrapQtAppsHook,
+  pkg-config,
+  ffmpeg_4,
+  libnotify,
+  qtbase,
+}:
 
 let
-  vitamtp = pkgs.callPackage ./vitamtp.nix {};
+  vitamtp = pkgs.callPackage ./vitamtp.nix { };
 in
 stdenv.mkDerivation rec {
   pname = "qcma";
@@ -15,8 +27,18 @@ stdenv.mkDerivation rec {
     leaveDotGit = true;
   };
 
-  buildInputs = [ vitamtp ffmpeg_4 libnotify qtbase ];
-  nativeBuildInputs = [ git qmake wrapQtAppsHook pkg-config ];
+  buildInputs = [
+    vitamtp
+    ffmpeg_4
+    libnotify
+    qtbase
+  ];
+  nativeBuildInputs = [
+    git
+    qmake
+    wrapQtAppsHook
+    pkg-config
+  ];
 
   meta = with lib; {
     description = "[BROKEN] Cross-platform content manager assistant for the PS Vita";
