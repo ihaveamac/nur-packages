@@ -52,6 +52,8 @@ stdenv.mkDerivation rec {
     homepage = "https://codestation.github.io/qcma/";
     license = licenses.gpl3;
     platforms = platforms.unix;
+    # currently results in empty derivation
+    broken = stdenv.isDarwin;
     mainProgram = "qcma";
   };
 }
