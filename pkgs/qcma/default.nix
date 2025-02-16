@@ -10,6 +10,7 @@
   ffmpeg_4,
   libnotify,
   qtbase,
+  qttools,
 }:
 
 let
@@ -23,8 +24,7 @@ stdenv.mkDerivation rec {
     owner = "codestation";
     repo = pname;
     rev = "65f0eab8ca0640447d2e84cdc5fadc66d2c07efb";
-    hash = "sha256-qfxMpUsNECjuwTQwqK2PaJHMnNrIkEHJv95PgH7I2y8=";
-    leaveDotGit = true;
+    hash = "sha256-AxbWZlziQdL3HnCf9kqylqBnWXVmC0I9pqoFXQAnD8U=";
   };
 
   buildInputs = [
@@ -33,18 +33,25 @@ stdenv.mkDerivation rec {
     libnotify
     qtbase
   ];
+
   nativeBuildInputs = [
     git
     qmake
     wrapQtAppsHook
     pkg-config
+    qttools
   ];
 
+  # https://discourse.nixos.org/t/building-derivation-fails-with-generic-makefile-error-manually-building-in-arch-seems-to-work-fine/55168/6
+  preBuild = ''
+    lrelease-pro qcma.pro
+  '';
+
   meta = with lib; {
-    description = "[BROKEN] Cross-platform content manager assistant for the PS Vita";
+    description = "Cross-platform content manager assistant for the PS Vita";
     homepage = "https://codestation.github.io/qcma/";
     license = licenses.gpl3;
     platforms = platforms.unix;
-    broken = true;
+    mainProgram = "qcma";
   };
 }
