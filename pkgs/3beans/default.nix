@@ -39,18 +39,23 @@ stdenv.mkDerivation rec {
     ''
       mkdir -p $out/bin
     ''
-    + (if stdenv.isDarwin then ''
-      contents=$out/Applications/3Beans.app/Contents
-      mkdir -p $contents
-      cp Info.plist $contents
-      mkdir $contents/MacOS
-      cp 3beans $contents/MacOS/3beans
-      ln -s $contents/MacOS/3beans $out/bin/3beans
-    '' else ''
-      mkdir -p $out/share/applications
-      cp 3beans $out/bin
-      cp com.hydra.threebeans.desktop $out/share/applications
-    '');
+    + (
+      if stdenv.isDarwin then
+        ''
+          contents=$out/Applications/3Beans.app/Contents
+          mkdir -p $contents
+          cp Info.plist $contents
+          mkdir $contents/MacOS
+          cp 3beans $contents/MacOS/3beans
+          ln -s $contents/MacOS/3beans $out/bin/3beans
+        ''
+      else
+        ''
+          mkdir -p $out/share/applications
+          cp 3beans $out/bin
+          cp com.hydra.threebeans.desktop $out/share/applications
+        ''
+    );
 
   meta = with lib; {
     license = licenses.gpl3;
