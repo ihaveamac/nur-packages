@@ -34,5 +34,6 @@ clangStdenv.mkDerivation rec {
     homepage = "https://github.com/hedge-dev/XenonRecomp";
     license = licenses.mit;
     platforms = platforms.all;
+    broken = with clangStdenv; !(isx86_64 || isx86_32);
   };
 }
