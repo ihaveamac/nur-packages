@@ -34,6 +34,7 @@ stdenv.mkDerivation rec {
     ./include-cstdint.patch
     ./include-cstdio.patch
     ./stub-missing-register-or-something.patch
+    ./remove-usr-local-stuff.patch
   ];
 
   buildInputs = [
