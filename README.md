@@ -49,7 +49,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [wfs-tools-1.2.3-unstable-2025-03-01](https://github.com/koolkdev/wfs-tools) | wfs-tools | WFS (WiiU File System) Tools |
 | [wifiboot-host-unstable-2023-07-02](https://github.com/danny8376/wifiboot-host) | wifiboot-host | command line version uploader for https://problemkaputt.de/wifiboot.htm |
 | [xenonrecomp-0-unstable-2025-02-26](https://github.com/hedge-dev/XenonRecomp) | xenonrecomp | A tool for recompiling Xbox 360 games to native executables. |
-| [xiv-on-mac-5.0.2](https://www.xivmac.com) | xiv-on-mac | Modern, open-source Final Fantasy XIV client for macOS |
+| [xiv-on-mac-5.1](https://www.xivmac.com) | xiv-on-mac | Modern, open-source Final Fantasy XIV client for macOS |
 
 ## Overlay
 
