@@ -58,6 +58,7 @@ rec {
   local-gpss = callPackage ./pkgs/local-gpss { };
   qcma = libsForQt5.callPackage ./pkgs/qcma { };
   xenonrecomp = callPackage ./pkgs/xenonrecomp { };
+  darctool-yls8 = callPackage ./pkgs/darctool-yls8 { };
 
   mediawiki_1_39 = callPackage ./pkgs/mediawiki {
     version = "1.39.13";
