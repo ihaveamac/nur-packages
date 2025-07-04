@@ -69,6 +69,10 @@ rec {
     version = "1.43.3";
     hash = "sha256-5AnfQWuk2Z0nBeHrD/gWiGPbKnkcwL56h9s8E9mAGnA=";
   };
+  mediawiki_1_44 = callPackage ./pkgs/mediawiki {
+    version = "1.44.0";
+    hash = "sha256-eSF3gIw+CDGsy+IF1XtBMzma0UHw0KglRQohskAnWI8=";
+  };
 
   # EOL packages
   mediawiki_1_40 = callPackage ./pkgs/mediawiki {

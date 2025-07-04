@@ -38,6 +38,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | ~~[mediawiki-1.41.5](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_41~~ | ~~The collaborative editing software that runs Wikipedia~~ |
 | ~~[mediawiki-1.42.7](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_42~~ | ~~The collaborative editing software that runs Wikipedia~~ |
 | [mediawiki-1.43.3](https://www.mediawiki.org/) | mediawiki\_1\_43 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-1.44.0](https://www.mediawiki.org/) | mediawiki\_1\_44 | The collaborative editing software that runs Wikipedia |
 | [mrpack-install-0.16.10-unstable-2024-11-24](https://github.com/nothub/mrpack-install) | mrpack-install | Modrinth Modpack server deployment |
 | [otptool-1.0](https://github.com/SciresM/otptool) | otptool | view and extract data from a 3DS OTP |
 | [qcma-0.4.2](https://codestation.github.io/qcma/) | qcma | Cross-platform content manager assistant for the PS Vita |
