@@ -59,6 +59,7 @@ rec {
   qcma = libsForQt5.callPackage ./pkgs/qcma { };
   xenonrecomp = callPackage ./pkgs/xenonrecomp { };
   darctool-yls8 = callPackage ./pkgs/darctool-yls8 { };
+  ctr-gputextool = callPackage ./pkgs/ctr-gputextool { };
 
   mediawiki_1_39 = callPackage ./pkgs/mediawiki {
     version = "1.39.13";
