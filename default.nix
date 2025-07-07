@@ -61,6 +61,7 @@ rec {
   darctool-yls8 = callPackage ./pkgs/darctool-yls8 { };
   ctr-gputextool = callPackage ./pkgs/ctr-gputextool { };
   switch-tools = callPackage ./pkgs/switch-tools { };
+  ctr-logobuilder = callPackage ./pkgs/ctr-logobuilder { };
 
   kwin-move-window = callPackage ./pkgs/kwin-move-window { };
 
