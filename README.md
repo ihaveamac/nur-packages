@@ -25,13 +25,13 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [cxitool-unstable-2019-04-10](https://github.com/devkitpro/3dstools) | cxitool | Convert 3dsx to CXI |
 | [darctool-1.2.0](https://github.com/dnasdw/darctool) | darctool | A tool for extracting/creating darc file. |
 | [darctool-yls8-0-unstable-2015-11-21](https://github.com/yellows8/darctool) | darctool-yls8 | Tool for extracting and building 3DS darc archive files. |
-| [DiscordWikiBot-0-unstable-2025-03-12](https://github.com/stjohann/DiscordWikiBot) | discordwikibot | Discord bot for Wikimedia projects and MediaWiki wiki sites |
+| [DiscordWikiBot-0-unstable-2025-08-04](https://github.com/stjohann/DiscordWikiBot) | discordwikibot | Discord bot for Wikimedia projects and MediaWiki wiki sites |
 | [ftpd-3.2.1](https://github.com/mtheall/ftpd) | ftpd | FTP Server for 3DS/Switch (and Linux) |
 | [kame-editor-1.4.1-unstable-2025-06-04](https://beelzy.gitlab.io/kame-editor/) | kame-editor | GUI frontend for kame-tools; makes custom 3DS themes. |
 | [kame-tools-1.3.8-unstable-2024-11-01](https://gitlab.com/beelzy/kame-tools) | kame-tools | Fork of bannertools that includes tools for making 3DS themes. |
 | [kwin-move-window-1.1.1](https://github.com/Merrit/kwin-move-window) | kwin-move-window | KWin script that adds shortcuts to move the active window with the keyboard |
 | [lnshot-0.1.3](https://github.com/ticky/lnshot) | lnshot | Symlink your Steam screenshots to a sensible place |
-| [local-gpss-1.0.0](https://github.com/FlagBrew/local-gpss) | local-gpss | A C# API server that can be used to locally host GPSS |
+| [local-gpss-1.0.3](https://github.com/FlagBrew/local-gpss) | local-gpss | A C# API server that can be used to locally host GPSS |
 | [makebax-2019-01-22](https://gitlab.com/Wolfvak/BAX) | makebax | BAX Animation creator |
 | [makerom-0.18.4](https://github.com/3DSGuy/Project_CTR) | makerom | make 3ds roms |
 | [mediawiki-1.39.13](https://www.mediawiki.org/) | mediawiki\_1\_39 | The collaborative editing software that runs Wikipedia |
