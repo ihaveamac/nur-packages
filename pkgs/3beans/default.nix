@@ -10,13 +10,13 @@
 
 stdenv.mkDerivation rec {
   pname = "3beans";
-  version = "0-unstable-2025-08-19";
+  version = "0-unstable-2025-08-31";
 
   src = fetchFromGitHub {
     owner = "Hydr8gon";
     repo = "3Beans";
-    rev = "9c98b86e365f11260179a27a65d1ecf10739afb5";
-    hash = "sha256-ubLakXZrz7Pu+qZJbFtdxs6UqToiLUU76gTefAdTxTw=";
+    rev = "bd8d3697798197433ff064227eb3ef58242799bf";
+    hash = "sha256-N3jn0Qkr58oXhLY4V5BmNEueCykj5cdhSRUi82/k4ag=";
   };
 
   buildInputs = [
