@@ -16,16 +16,21 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "twlnandtool";
-  version = "1.0";
+  version = "1.0.1";
 
   src = fetchFromGitHub {
     owner = "TuxSH";
     repo = pname;
     rev = "v${version}";
-    hash = "sha256-gLhQNPmRQWx7Ku8UW1thAFCX+n71AgPuWm18T6FQEqc=";
+    hash = "sha256-6utNsihYD5YPyq4UiD7ZiChPnqt7e5g4lFHmO2S6zwA=";
   };
 
   buildInputs = [ nettle gmp ];
+
+  cmakeFlags = if stdenv.hostPlatform.isWindows then [
+    "-DNettle_INCLUDE_DIR=${nettle.dev}/include"
+    "-DNettle_LIBRARY=${nettle}/lib${stdenv.hostPlatform.extensions.sharedLibrary}"
+  ] else [];
 
   # don't think pkg-config is really required
   nativeBuildInputs = [ cmake pkg-config ];
