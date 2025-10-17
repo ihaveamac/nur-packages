@@ -52,7 +52,6 @@ rec {
   mrpack-install = callPackage ./pkgs/mrpack-install { };
   _3dstools = callPackage ./pkgs/3dstools { };
   cxitool = callPackage ./pkgs/cxitool { };
-  xiv-on-mac = callPackage ./pkgs/xiv-on-mac { };
   rofs-dumper = callPackage ./pkgs/rofs-dumper { };
   _3beans = callPackage ./pkgs/3beans { };
   local-gpss = callPackage ./pkgs/local-gpss { };
