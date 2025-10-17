@@ -46,7 +46,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [roadgeek-fonts-3.1](https://github.com/sammdot/roadgeek-fonts) | roadgeek-fonts | A set of fonts replicating various road sign typefaces. |
 | [rofs-dumper-1.0](https://github.com/PabloMK7/rofs_dumper) | rofs-dumper | Dumps 3DS ROFS containers (early format of romfs) |
 | [rstmcpp-unstable-2023-04-02](https://gitlab.com/beelzy/rstmcpp) | rstmcpp | An experimental port of BrawlLib's RSTM encoder, and the WAV file handling from LoopingAudioConverter, to C++. |
-| [rvthtool-1.1.1-unstable-2025-02-01](https://github.com/GerbilSoft/rvthtool) | rvthtool | Open-source tool for managing RVT-H Reader consoles |
+| [rvthtool-1.1.1-unstable-2025-02-01](https://codeberg.org/ihaveahax/rvthtool) | rvthtool | Open-source tool for managing RVT-H Reader consoles |
 | [save3ds-unstable-2023-03-28](https://github.com/wwylele/save3ds) | save3ds | Extract/Import/FUSE for 3DS save/extdata/database. |
 | [sdFormatLinux-0.2.0](https://github.com/profi200/sdFormatLinux) | sd-format-linux | Properly format SD cards under Linux. |
 | [switch-tools-1.13.1](https://github.com/switchbrew/switch-tools) | switch-tools | Various Nintendo Switch homebrew tools |
