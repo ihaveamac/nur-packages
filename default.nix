@@ -64,6 +64,7 @@ rec {
   #tiny-wii-backup-manager = callPackage ./pkgs/tiny-wii-backup-manager { };
   twlnandtool = callPackage ./pkgs/twlnandtool { };
   roadgeek-fonts = callPackage ./pkgs/roadgeek-fonts { };
+  retro-aim-server = callPackage ./pkgs/retro-aim-server { };
 
   kwin-move-window = callPackage ./pkgs/kwin-move-window { };
 
