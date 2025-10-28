@@ -53,7 +53,6 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [switch-tools-1.13.1](https://github.com/switchbrew/switch-tools) | switch-tools | Various Nintendo Switch homebrew tools |
 | [themethod3-0-unstable-2025-05-26](https://github.com/DarkRTA/themethod3) | themethod3 | Tool for decrypting all mogg files used by the Rock Band series |
 | [twlnandtool-1.0.1](https://github.com/TuxSH/twlnandtool) | twlnandtool | Modern drop-in replacement for twltool: fast decryption of DSi NAND dumps and system files. Written in C++14 |
-| [unxip-3.0](https://github.com/saagarjha/unxip) | unxip | A fast Xcode unarchiver |
 | [wfs-tools-1.2.3-unstable-2025-03-19](https://github.com/koolkdev/wfs-tools) | wfs-tools | WFS (WiiU File System) Tools |
 | [wifiboot-host-unstable-2023-07-02](https://github.com/danny8376/wifiboot-host) | wifiboot-host | command line version uploader for https://problemkaputt.de/wifiboot.htm |
 | [xenonrecomp-0-unstable-2025-08-04](https://github.com/hedge-dev/XenonRecomp) | xenonrecomp | A tool for recompiling Xbox 360 games to native executables. |
