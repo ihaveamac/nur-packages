@@ -1,4 +1,3 @@
-# TODO: remove stdenv override when 24.11 goes eol
 {
   lib,
   stdenv,
