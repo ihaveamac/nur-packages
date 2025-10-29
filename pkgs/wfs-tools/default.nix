@@ -9,6 +9,7 @@
   boost,
   cryptopp,
   fuse,
+  darwinMinVersionHook,
   withFUSE ? !stdenv.hostPlatform.isWindows,
 }:
 
@@ -81,7 +82,8 @@ stdenv.mkDerivation rec {
     boost
     realCryptopp
   ]
-  ++ lib.optional withFUSE fuse;
+  ++ lib.optional withFUSE fuse
+  ++ lib.optional stdenv.hostPlatform.isDarwin (darwinMinVersionHook "13.3");
 
   nativeBuildInputs = [
     cmake
