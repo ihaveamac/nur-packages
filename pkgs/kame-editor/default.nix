@@ -64,8 +64,6 @@ stdenv.mkDerivation rec {
     homepage = "https://beelzy.gitlab.io/kame-editor/";
     license = licenses.gpl3Plus;
     platforms = platforms.all;
-    # TODO: https://github.com/NixOS/nixpkgs/pull/455458
-    broken = stdenv.hostPlatform.isDarwin;
     mainProgram = "kame-editor";
   };
 }
