@@ -49,7 +49,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [rofsc-1.0.0.0](https://github.com/AtlasOmegaAlpha/rofsc) | rofsc | 3DS ROFS packer |
 | [rstmcpp-unstable-2023-04-02](https://gitlab.com/beelzy/rstmcpp) | rstmcpp | An experimental port of BrawlLib's RSTM encoder, and the WAV file handling from LoopingAudioConverter, to C++. |
 | [rvthtool-1.1.1-unstable-2025-02-01](https://codeberg.org/ihaveahax/rvthtool) | rvthtool | Open-source tool for managing RVT-H Reader consoles |
-| [save3ds-unstable-2023-03-28](https://github.com/wwylele/save3ds) | save3ds | Extract/Import/FUSE for 3DS save/extdata/database. |
+| [save3ds-1.4.0](https://github.com/wwylele/save3ds) | save3ds | Extract/Import/FUSE for 3DS save/extdata/database. |
 | [sdFormatLinux-0.2.0](https://github.com/profi200/sdFormatLinux) | sd-format-linux | Properly format SD cards under Linux. |
 | [switch-tools-1.13.1](https://github.com/switchbrew/switch-tools) | switch-tools | Various Nintendo Switch homebrew tools |
 | [themethod3-0-unstable-2025-05-26](https://github.com/DarkRTA/themethod3) | themethod3 | Tool for decrypting all mogg files used by the Rock Band series |
