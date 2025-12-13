@@ -20,7 +20,7 @@ stdenv.mkDerivation rec {
   };
 
   buildInputs = [
-    (wxGTK32.override { withWebKit = false; })
+    wxGTK32
     portaudio
     libGL
   ];
