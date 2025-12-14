@@ -6,23 +6,25 @@
   wxGTK32,
   portaudio,
   libGL,
+  libepoxy,
 }:
 
 stdenv.mkDerivation rec {
   pname = "3beans";
-  version = "release-unstable-2025-12-10";
+  version = "release-unstable-2025-12-14";
 
   src = fetchFromGitHub {
     owner = "Hydr8gon";
     repo = "3Beans";
-    rev = "941ca718864fed9c7ad8bd93ae3dd4f2cead65e2";
-    hash = "sha256-3rfP+cRTbsPZmQNEjz4dhByUOnntVA1bhTftSpqitMY=";
+    rev = "76f8b5476a7144dd28aeeeb260bb9401010b4fc5";
+    hash = "sha256-AHo9kpj2gms1uJxDlsqcv/ax7zNXQxj6dCEbYum/QSQ=";
   };
 
   buildInputs = [
     wxGTK32
     portaudio
     libGL
+    libepoxy
   ];
   nativeBuildInputs = [ pkg-config ];
 
