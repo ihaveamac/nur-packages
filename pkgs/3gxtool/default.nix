@@ -16,11 +16,17 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [ cmake ];
 
+  postPatch = ''
+    # goddamn case sensitivity
+    substituteInPlace extern/dynalo/include/dynalo/detail/windows/dynalo.hpp \
+      --replace-warn Windows.h windows.h
+  '';
+
   # the original installPhase will install the incorrect files
   installPhase = ''
     pwd
     mkdir -p $out/bin
-    cp 3gxtool $out/bin
+    cp 3gxtool${stdenv.hostPlatform.extensions.executable} $out/bin
   '';
 
   cmakeFlags = [
