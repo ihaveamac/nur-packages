@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
     description = "An utility to generate 3GX plugins.";
     homepage = "https://gitlab.com/thepixellizeross/3gxtool";
     license = licenses.mit;
-    platforms = platforms.all;
+    platforms = platforms.linux ++ platforms.windows;
     mainProgram = "3gxtool";
   };
 }
