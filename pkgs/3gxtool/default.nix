@@ -37,6 +37,7 @@ stdenv.mkDerivation rec {
     description = "An utility to generate 3GX plugins.";
     homepage = "https://gitlab.com/thepixellizeross/3gxtool";
     license = licenses.mit;
+    # TODO: manually clone dynalo due to mac support in newer commits
     platforms = platforms.linux ++ platforms.windows;
     mainProgram = "3gxtool";
   };
