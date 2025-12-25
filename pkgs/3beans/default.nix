@@ -10,15 +10,17 @@
 }:
 
 let
-  wxwidgets-newer = wxwidgets_3_3.overrideAttrs (final: prev: {
-    src = fetchFromGitHub {
-      owner = "wxWidgets";
-      repo = "wxWidgets";
-      rev = "1fd12d7bd6987603b8d63000a593a4286f5cad46";
-      fetchSubmodules = true;
-      hash = "sha256-DzMW9i6TE+kGb3rXuxhb7lTFlT1A06O+iXzdmFq9Fa4=";
-    };
-  });
+  wxwidgets-newer = wxwidgets_3_3.overrideAttrs (
+    final: prev: {
+      src = fetchFromGitHub {
+        owner = "wxWidgets";
+        repo = "wxWidgets";
+        rev = "1fd12d7bd6987603b8d63000a593a4286f5cad46";
+        fetchSubmodules = true;
+        hash = "sha256-DzMW9i6TE+kGb3rXuxhb7lTFlT1A06O+iXzdmFq9Fa4=";
+      };
+    }
+  );
 in
 stdenv.mkDerivation rec {
   pname = "3beans";
