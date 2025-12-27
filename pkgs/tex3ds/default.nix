@@ -42,6 +42,7 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     description = "3DS Texture Conversion";
     homepage = "https://github.com/devkitPro/tex3ds";
+    license = licenses.gpl3;
     platforms = platforms.all;
   };
 }
