@@ -35,7 +35,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [local-gpss-1.0.3](https://github.com/FlagBrew/local-gpss) | local-gpss | A C# API server that can be used to locally host GPSS |
 | [makebax-2019-01-22](https://gitlab.com/Wolfvak/BAX) | makebax | BAX Animation creator |
 | [makerom-0.18.4](https://github.com/3DSGuy/Project_CTR) | makerom | make 3ds roms |
-| [mediawiki-1.39.16](https://www.mediawiki.org/) | mediawiki\_1\_39 | The collaborative editing software that runs Wikipedia |
+| ~~[mediawiki-1.39.17](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_39~~ | ~~The collaborative editing software that runs Wikipedia~~ |
 | ~~[mediawiki-1.40.4](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_40~~ | ~~The collaborative editing software that runs Wikipedia~~ |
 | ~~[mediawiki-1.41.5](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_41~~ | ~~The collaborative editing software that runs Wikipedia~~ |
 | ~~[mediawiki-1.42.7](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_42~~ | ~~The collaborative editing software that runs Wikipedia~~ |

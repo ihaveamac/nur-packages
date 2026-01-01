@@ -72,10 +72,6 @@ rec {
 
   kwin-move-window = callPackage ./pkgs/kwin-move-window { };
 
-  mediawiki_1_39 = callPackage ./pkgs/mediawiki {
-    version = "1.39.16";
-    hash = "sha256-1+IY8BlZYwqdbGxtB8QLtvHg85DCzNctQC0D6Ck6NL4=";
-  };
   mediawiki_1_43 = callPackage ./pkgs/mediawiki {
     version = "1.43.6";
     hash = "sha256-S6YDacFNxGyLIa4UbD6l+LtWhXskSKEkbkRny2XKPJU=";
@@ -90,6 +86,11 @@ rec {
   };
 
   # EOL packages
+  mediawiki_1_39 = callPackage ./pkgs/mediawiki {
+    version = "1.39.17";
+    hash = "sha256-LFhT0DTQw+dRYOgQQSUib6uWTX7TdzL4PnIEeB+rB7k=";
+    knownVulnerabilities = [ "MediaWiki 1.39 has been end-of-life since 2025-12-31." ];
+  };
   mediawiki_1_40 = callPackage ./pkgs/mediawiki {
     version = "1.40.4";
     hash = "sha256-hUkUPBFma+u4SxT1pTzxMXCwcSEbf86BjNsNoF756J4=";
