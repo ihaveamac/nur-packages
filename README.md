@@ -78,3 +78,7 @@ Enables the lnshot daemon to automatically link Steam screenshots.
 ### services.lnshot.picturesName
 
 Name of the directory to manage inside the Pictures folder. Defaults to "Steam Screenshots".
+
+### services.lnshot.singleUserID64
+
+User to read screenshots from. Setting this will skip creating user-specific folders in the pictures folder.
