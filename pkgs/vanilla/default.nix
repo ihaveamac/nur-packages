@@ -12,11 +12,7 @@
   xorg,
   libtiff,
   networkmanager,
-  libsysprof-capture,
-  pcre2,
   util-linux,
-  libselinux,
-  libsepol,
   libnl,
   SDL2,
   SDL2_ttf,
@@ -25,6 +21,8 @@
   libxml2,
   libwebp,
   polkit,
+  libGL,
+  libdrm,
 }:
 let
   hostap = fetchFromGitHub {
@@ -77,6 +75,8 @@ stdenv.mkDerivation rec {
     libxml2
     libwebp
     polkit
+    libGL
+    libdrm
   ];
 
   patches = [ ./fix-sdl2-include.patch ];
