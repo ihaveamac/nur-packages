@@ -96,6 +96,8 @@ stdenv.mkDerivation rec {
     mkdir -p $polkit/share/polkit-1/{actions,rules.d}
     cp ${./com.mattkc.vanilla.policy} $polkit/share/polkit-1/actions/com.mattkc.vanilla.policy
     cp ${./com.mattkc.vanilla.rules} $polkit/share/polkit-1/rules.d/com.mattkc.vanilla.rules
+    substituteInPlace $polkit/share/polkit-1/actions/com.mattkc.vanilla.policy \
+      --replace-fail VANILLA_PIPE_PATH $out/bin/vanilla-pipe
   '';
 
   outputs = [ "out" "polkit" ];
