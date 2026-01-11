@@ -92,6 +92,14 @@ stdenv.mkDerivation rec {
     --replace-fail /usr/include/libnl3 ${lib.getDev libnl}/include/libnl3
   '';
 
+  postInstall = ''
+    mkdir -p $polkit/share/polkit-1/{actions,rules.d}
+    cp ${./com.mattkc.vanilla.policy} $polkit/share/polkit-1/actions/com.mattkc.vanilla.policy
+    cp ${./com.mattkc.vanilla.rules} $polkit/share/polkit-1/rules.d/com.mattkc.vanilla.rules
+  '';
+
+  outputs = [ "out" "polkit" ];
+
   meta = with lib; {
     description = "A software clone of the Wii U GamePad for Linux";
     homepage = "https://github.com/vanilla-wiiu/vanilla";
