@@ -50,23 +50,13 @@ stdenv.mkDerivation rec {
     cmake
     pkg-config
     git
-    # probably not needed, as the "git clone" has been replaced with a local clone
-    #cacert
   ];
 
   buildInputs = [
     openssl
-    # the gui has been replaced with something else... so is this still needed?
-    # if removed, i need xorg.libX11 and libtiff
-    gtk4
+    xorg.libX11
+    libtiff
     networkmanager
-    #libsysprof-capture
-    #pcre2
-    # i should determine if this is still needed
-    util-linux
-    # don't think these two are used at all? the executables don't appear in the source
-    #libselinux
-    #libsepol
     libnl
     SDL2
     SDL2_ttf
