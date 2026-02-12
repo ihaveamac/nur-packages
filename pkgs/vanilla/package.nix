@@ -9,7 +9,7 @@
   git,
   openssl,
   gtk4,
-  xorg,
+  libx11,
   libtiff,
   networkmanager,
   util-linux,
@@ -54,7 +54,7 @@ stdenv.mkDerivation rec {
 
   buildInputs = [
     openssl
-    xorg.libX11
+    libx11
     libtiff
     networkmanager
     libnl
