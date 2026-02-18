@@ -35,13 +35,13 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "vanilla";
-  version = "continuous-unstable-2026-02-16";
+  version = "continuous-unstable-2026-02-18";
 
   src = fetchFromGitHub {
     owner = "vanilla-wiiu";
     repo = pname;
-    rev = "9e11d69ae1cb0bb51651d7b73a9770fc3b88a9d8";
-    hash = "sha256-xoR7vuXHbX7ZIV/WlA3RZiF0ll8yoFgxpPwkD044hxQ=";
+    rev = "57b4e71a1f1179a8177b0eac2a9d47ca8274334a";
+    hash = "sha256-0aj8lkUsFJnV7naUb1vKJEYfXD//31bFBN47JEl2jJU=";
   };
 
   passthru = { inherit hostap; };
