@@ -15,9 +15,9 @@ let
       src = fetchFromGitHub {
         owner = "wxWidgets";
         repo = "wxWidgets";
-        rev = "1fd12d7bd6987603b8d63000a593a4286f5cad46";
+        rev = "9720f1fdce0e11313d383a6ceb92275e7910e540";
         fetchSubmodules = true;
-        hash = "sha256-DzMW9i6TE+kGb3rXuxhb7lTFlT1A06O+iXzdmFq9Fa4=";
+        hash = "sha256-vtb716bhRjsoE/rIxlzmwwXCg2Aw4Prqepd3Skbiuh0=";
       };
     }
   );
