@@ -2,12 +2,12 @@
 
 azahar.overrideAttrs (final: prev: {
   pname = "azahar";
-  version = "2125.0-rc1-unstable-2026-03-12";
+  version = "2125.0-rc1-unstable-2026-03-13";
   src = fetchFromGitHub {
     owner = "azahar-emu";
     repo = "azahar";
-    rev = "9e162705f49537d927752c962988e7316441db3a";
-    hash = "sha256-zjrccu+24R3ScTYmV3rE5edbcA/fQ5fCUsW8c0Oe8sU=";
+    rev = "100b00b3b569a24e8a27ed692c39d6961a12ae8c";
+    hash = "sha256-smFw/a7kcYjMiThNrF9o6fub4PfzV1ibM/XiltwULag=";
     fetchSubmodules = true;
   };
 
