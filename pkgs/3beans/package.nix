@@ -24,13 +24,13 @@ let
 in
 stdenv.mkDerivation rec {
   pname = "3beans";
-  version = "release-unstable-2026-04-10";
+  version = "release-unstable-2026-04-11";
 
   src = fetchFromGitHub {
     owner = "Hydr8gon";
     repo = "3Beans";
-    rev = "2505bab221dc3d47ea14042f218bb8dd4a0448a1";
-    hash = "sha256-pkOyLwHYfDrb1/JOV9MMwo0x4HnCFxwTqZkzDky2aW8=";
+    rev = "8245bcfcbea6b7531e80efdafa76e13ef7520607";
+    hash = "sha256-RTTlV6I2ni7LWFLBRYPqsAwT8HZRyjI9OTiAxOQegok=";
   };
 
   buildInputs = [
