@@ -41,12 +41,12 @@ stdenv.mkDerivation rec {
   passthru.wfslib = fetchFromGitHub {
     owner = "koolkdev";
     repo = "wfslib";
-    rev = "e6e2c624d09de4b6985436aaf7510fb410362002";
-    hash = "sha256-ZoW/Me+MCrmwPSO36zPPil4ZWzuEc+LClwcuaL8Bt5o=";
+    rev = "35d92332daabf8c74378d55451e64d0585978020";
+    hash = "sha256-jvY2vz8t8hjdIgUNUD4yPIsPTvSjy0dh4Yc5hNugV1E=";
     passthru = {
       # to allow nix-update to work
       pname = "wfslib";
-      version = "1.2-unstable-2026-04-24";
+      version = "1.2-unstable-2026-04-26";
       src = passthru.wfslib;
     };
   };
