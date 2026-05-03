@@ -77,9 +77,6 @@ stdenv.mkDerivation rec {
     substituteInPlace pipe/linux/CMakeLists.txt \
         --replace-fail "https://github.com/rolandoislas/drc-hostap.git" "${hostap}" \
         --replace-fail "--branch master" "--branch fetchgit"
-
-    substituteInPlace cmake/FindLibNL.cmake \
-    --replace-fail /usr/include/libnl3 ${lib.getDev libnl}/include/libnl3
   '';
 
   postInstall = ''
