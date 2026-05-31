@@ -54,7 +54,9 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [rofs-dumper-1.0](https://github.com/PabloMK7/rofs_dumper) | rofs-dumper | Dumps 3DS ROFS containers (early format of romfs) |
 | [rofs-extract-0-unstable-2026-02-28](https://github.com/M-1-RLG/rofs_extract) | rofs-extract | A simple program to extract files from early 3DS ROFS container |
 | [rofsc-1.0.0.0](https://github.com/AtlasOmegaAlpha/rofsc) | rofsc | 3DS ROFS packer |
+| [rrsync-3.4.1](https://rsync.samba.org/) | rrsync\_341 | Helper to run rsync-only environments from ssh-logins |
 | [rstmcpp-unstable-2023-04-02](https://gitlab.com/beelzy/rstmcpp) | rstmcpp | An experimental port of BrawlLib's RSTM encoder, and the WAV file handling from LoopingAudioConverter, to C++. |
+| [rsync-3.4.1](https://rsync.samba.org/) | rsync\_341 | Fast incremental file transfer utility |
 | [rvthtool-1.1.1-unstable-2025-02-01](https://codeberg.org/ihaveahax/rvthtool) | rvthtool | Open-source tool for managing RVT-H Reader consoles |
 | [save3ds-1.4.0](https://github.com/wwylele/save3ds) | save3ds | Extract/Import/FUSE for 3DS save/extdata/database. |
 | [sdFormatLinux-0.2.0](https://github.com/profi200/sdFormatLinux) | sd-format-linux | Properly format SD cards under Linux. |
