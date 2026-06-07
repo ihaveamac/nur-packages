@@ -49,7 +49,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [mrpack-install-0.16.10-unstable-2024-11-24](https://github.com/nothub/mrpack-install) | mrpack-install | Modrinth Modpack server deployment |
 | [otptool-1.0](https://github.com/SciresM/otptool) | otptool | view and extract data from a 3DS OTP |
 | [qcma-0.4.2](https://codestation.github.io/qcma/) | qcma | Cross-platform content manager assistant for the PS Vita |
-| [retro-aim-server-0.23.0](https://github.com/mk6i/retro-aim-server) | retro-aim-server | Self-hostable instant messaging server compatible with classic AIM and ICQ clients |
+| [retro-aim-server-0.24.0](https://github.com/mk6i/retro-aim-server) | retro-aim-server | Self-hostable instant messaging server compatible with classic AIM and ICQ clients |
 | [roadgeek-fonts-3.1](https://github.com/sammdot/roadgeek-fonts) | roadgeek-fonts | A set of fonts replicating various road sign typefaces. |
 | [rofs-dumper-1.0](https://github.com/PabloMK7/rofs_dumper) | rofs-dumper | Dumps 3DS ROFS containers (early format of romfs) |
 | [rofs-extract-0-unstable-2026-02-28](https://github.com/M-1-RLG/rofs_extract) | rofs-extract | A simple program to extract files from early 3DS ROFS container |
