@@ -80,9 +80,9 @@ let
         nativeBuildInputs = [ p7zip ];
 
         unpackPhase = ''
-          gameDir = $out/games/TheXTech/${gameDir}
+          gameDir=$out/games/TheXTech/${gameDir}
           mkdir -p ${gameDir}
-          # MAKE IT UNPACK
+          7z x $src -o$gameDir
         '';
 
         installPhase = ''
@@ -90,9 +90,9 @@ let
           cp ${desktopItem}/share/applications/*.desktop $out/share/applications
 
           for f in 16 32 48 128 256; do
-            i=$src/graphics/ui/icon/thextech_$f.png
+            i=$gameDir/graphics/ui/icon/thextech_$f.png
             if test -e $i; then
-              d=$out/share/applications/hicolor/''${f}x''${f}/apps
+              d=$out/share/icons/hicolor/''${f}x''${f}/apps
               mkdir -p $d
               cp $i $d/${gameDir}.png
             fi
@@ -102,8 +102,10 @@ let
           substituteInPlace $out/bin/${executable} \
             --replace-fail NIXBASH ${bashInteractive}/bin/bash \
             --replace-fail NIXPACKID ${packId} \
-            --replace-fail NIXGAMEDIR $src \
-            --replace-fail 
+            --replace-fail NIXGAMEDIR $gameDir \
+            --replace-fail NIXGAMENAME "${gameName}" \
+            --replace-fail NIXBINARYPATH "${thextech}/bin/thextech"
+          chmod +x $out/bin/${executable}
         '';
       };
 
