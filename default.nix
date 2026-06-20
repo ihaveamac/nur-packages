@@ -148,4 +148,5 @@ rec {
       aeroshell-smodglow # not sure if this is necessary
       ;
   };
+  thextech = callPackage ./pkgs/thextech/package.nix { };
 })
