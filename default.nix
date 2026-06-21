@@ -55,7 +55,7 @@ rec {
   cxitool = callPackage ./pkgs/cxitool/package.nix { };
   rofs-dumper = callPackage ./pkgs/rofs-dumper/package.nix { };
   _3beans = callPackage ./pkgs/3beans/package.nix { };
-  local-gpss = callPackage ./pkgs/local-gpss/package.nix { };
+  #local-gpss = callPackage ./pkgs/local-gpss/package.nix { };
   qcma = libsForQt5.callPackage ./pkgs/qcma/package.nix { };
   xenonrecomp = callPackage ./pkgs/xenonrecomp/package.nix { };
   darctool-yls8 = callPackage ./pkgs/darctool-yls8/package.nix { };
