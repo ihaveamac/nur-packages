@@ -178,4 +178,7 @@ let
     };
   };
 in
-thextech
+if stdenv.isDarwin then
+  lib.warn "macOS implementation is incomplete, but the game launches" thextech
+else
+  thextech

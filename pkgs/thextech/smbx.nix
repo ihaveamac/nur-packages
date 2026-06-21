@@ -14,4 +14,10 @@ thextech.wrapGame {
   };
   desktopGenericName = "SMBX";
   desktopComment = "The Mario fan-game originally created by Andrew Spinks also known as a creator of the Terraria game.";
+  meta = with lib; {
+    description = "Super Mario Bros. X, on TheXTech engine";
+    homepage = "https://wohlsoft.ru/projects/TheXTech/";
+    platforms = platforms.all;
+    mainProgram = "thextech-smbx";
+  };
 }
