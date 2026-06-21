@@ -42,8 +42,8 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | ~~[mediawiki-core-1.39.17](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_39\_core~~ | ~~The collaborative editing software that runs Wikipedia (without bundled extensions)~~ |
 | [mediawiki-1.43.8](https://www.mediawiki.org/) | mediawiki\_1\_43 | The collaborative editing software that runs Wikipedia |
 | [mediawiki-core-1.43.8](https://www.mediawiki.org/) | mediawiki\_1\_43\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
-| [mediawiki-1.44.3](https://www.mediawiki.org/) | mediawiki\_1\_44 | The collaborative editing software that runs Wikipedia |
-| [mediawiki-core-1.44.3](https://www.mediawiki.org/) | mediawiki\_1\_44\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
+| [mediawiki-1.44.5](https://www.mediawiki.org/) | mediawiki\_1\_44 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-core-1.44.5](https://www.mediawiki.org/) | mediawiki\_1\_44\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
 | [mediawiki-1.45.3](https://www.mediawiki.org/) | mediawiki\_1\_45 | The collaborative editing software that runs Wikipedia |
 | [mediawiki-core-1.45.3](https://www.mediawiki.org/) | mediawiki\_1\_45\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
 | [mrpack-install-0.16.10-unstable-2024-11-24](https://github.com/nothub/mrpack-install) | mrpack-install | Modrinth Modpack server deployment |

@@ -94,12 +94,12 @@ rec {
     core = true;
   };
   mediawiki_1_44 = callPackage ./pkgs/mediawiki/package.nix {
-    version = "1.44.3";
-    hash = "sha256-WBzB9+2fjjAuOOrOp0zGP/ny7V2EEvOSDn1xGDUYMv8=";
+    version = "1.44.5";
+    hash = "sha256-PidNTU3WS+W6hsgfjaKsR+SZxTfQ+xftlsLQ98XaBGQ=";
   };
   mediawiki_1_44_core = callPackage ./pkgs/mediawiki/package.nix {
-    version = "1.44.3";
-    hash = "sha256-nsZ483+i/oznhUnktyF7GMFil6XmLVQJzjp3llT0TWo=";
+    version = "1.44.5";
+    hash = "sha256-H6GbwPBky1hJuwlJw0CD9vgGF3Gjjh18trVwrbrLboU=";
     core = true;
   };
   mediawiki_1_45 = callPackage ./pkgs/mediawiki/package.nix {
