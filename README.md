@@ -47,7 +47,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [mediawiki-core-1.45.3](https://www.mediawiki.org/) | mediawiki\_1\_45\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
 | [mrpack-install-0.21.0-beta-unstable-2026-03-11](https://github.com/nothub/mrpack-install) | mrpack-install | Modrinth Modpack server deployment |
 | [otptool-1.0](https://github.com/SciresM/otptool) | otptool | view and extract data from a 3DS OTP |
-| [qcma-0.4.2](https://codestation.github.io/qcma/) | qcma | Cross-platform content manager assistant for the PS Vita |
+| [qcma-0.4.1-unstable-2025-07-14](https://codestation.github.io/qcma/) | qcma | Cross-platform content manager assistant for the PS Vita |
 | [retro-aim-server-0.24.0](https://github.com/mk6i/retro-aim-server) | retro-aim-server | Self-hostable instant messaging server compatible with classic AIM and ICQ clients |
 | [roadgeek-fonts-3.1](https://github.com/sammdot/roadgeek-fonts) | roadgeek-fonts | A set of fonts replicating various road sign typefaces. |
 | [rofs-dumper-1.0](https://github.com/PabloMK7/rofs_dumper) | rofs-dumper | Dumps 3DS ROFS containers (early format of romfs) |
