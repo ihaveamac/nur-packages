@@ -20,7 +20,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [azahar-2126.0-alpha2-unstable-2026-06-19](https://github.com/azahar-emu/azahar) | azahar-master | Open-source 3DS emulator project based on Citra (master branch) |
 | [bannertool-2024-11-30](https://github.com/ihaveamac/3ds-bannertool) | bannertool | A tool for creating 3DS banners. (Mix of Windows unicode fix and CMake build system) |
 | [caesar-0.4.2-unstable-2022-08-16](https://github.com/kr3nshaw/caesar) | caesar | A tool that extracts the contents of Citrus Sound Archives |
-| [cleaninty-0.1.3](https://github.com/luigoalma/cleaninty) | cleaninty | Perform some Nintendo console client to server operations |
+| [cleaninty-0.1.3-unstable-2026-02-03](https://github.com/luigoalma/cleaninty) | cleaninty | Perform some Nintendo console client to server operations |
 | [Corgi3DS-2020-07-15](https://github.com/PSI-Rockin/Corgi3DS) | corgi3ds | An LLE dog-themed 3DS emulator |
 | [ctr-gputextool-0-unstable-2015-11-25](https://github.com/yellows8/ctr-gputextool) | ctr-gputextool | 3DS GPU texture conversion tool. |
 | [ctr-logobuilder-0-unstable-2015-11-25](https://github.com/yellows8/ctr-logobuilder) | ctr-logobuilder | Build 3DS logo files |
