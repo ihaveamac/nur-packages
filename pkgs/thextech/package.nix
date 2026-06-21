@@ -3,18 +3,17 @@
   stdenv,
   stdenvNoCC,
   fetchzip,
+  fetchFromGitHub,
   cmake,
   ninja,
+  git,
+  _7zz,
   SDL2,
-  SDL2_mixer,
   libpng,
   libjpeg,
   libglvnd,
-  git,
-  tree,
   bashInteractive,
   makeDesktopItem,
-  p7zip,
 }:
 
 let
@@ -22,14 +21,21 @@ let
     pname = "thextech";
     version = "1.3.7.3";
 
-    src = fetchzip {
-      url = "https://github.com/TheXTech/TheXTech/releases/download/v${version}/thextech-full-src-v${version}.tar.bz2";
-      hash = "sha256-8w2H9g3QDRgsRRcMqQjB72tMKQ52J8MMvmqc1Up5G8w=";
+    #src = fetchzip {
+    #  url = "https://github.com/TheXTech/TheXTech/releases/download/v${version}/thextech-full-src-v${version}.tar.bz2";
+    #  hash = "sha256-8w2H9g3QDRgsRRcMqQjB72tMKQ52J8MMvmqc1Up5G8w=";
+    #};
+    src = fetchFromGitHub {
+      owner = "TheXTech";
+      repo = "TheXTech";
+      rev = "v${version}";
+      hash = "sha256-ZRvaaETrf5Bd5/lassk/h3BKULoAO+tHyp3MTpYLq24=";
+      fetchSubmodules = true;
+      leaveDotGit = true;
     };
 
     buildInputs = [
       SDL2
-      SDL2_mixer
       libpng
       libjpeg
       libglvnd
@@ -46,15 +52,10 @@ let
         gameVersion ? version,
         desktopGenericName ? "", # SMBX
         desktopComment ? "", # The Mario fan-game originally created by Andrew Spinks also known as a creator of the Terraria game.
+        meta ? null,
       }:
       let
         executable = "thextech-${packId}";
-        wrapperBase = builtins.readFile ./wrapper.sh;
-        script =
-          builtins.replaceStrings
-            [ "NIXBASH" "NIXPACKID" "NIXGAMEDIR" "NIXGAMENAME" "NIXBINARYPATH" ]
-            [ "${bashInteractive}/bin/bash" packId "${gameSrc}" gameName "${thextech}/bin/thextech" ]
-            wrapperBase;
         desktopItem = makeDesktopItem {
           name = gameName;
           desktopName = executable;
@@ -71,18 +72,23 @@ let
         };
       in
       stdenvNoCC.mkDerivation {
+        inherit meta;
         pname = executable;
         version = gameVersion;
 
         # TODO: make this support directories
         src = gameSrc;
 
-        nativeBuildInputs = [ p7zip ];
+        nativeBuildInputs = [ _7zz ];
 
         unpackPhase = ''
-          gameDir=$out/games/TheXTech/${gameDir}
-          mkdir -p ${gameDir}
-          7z x $src -o$gameDir
+          if test -d $src; then
+            gameDir=$src
+          else
+            gameDir=$out/games/TheXTech/${gameDir}
+            mkdir -p ${gameDir}
+            7zz x $src -o$gameDir
+          fi
         '';
 
         installPhase = ''
@@ -124,7 +130,6 @@ let
       rm -r $out/TheXTech
       mkdir $out/lib
       cp output/lib/*.so* $out/lib
-      ${tree}/bin/tree -a $out
     '';
 
     meta = with lib; {
