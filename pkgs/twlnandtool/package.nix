@@ -39,12 +39,7 @@ stdenv.mkDerivation rec {
   ];
 
   cmakeFlags =
-    if stdenv.hostPlatform.isWindows then
-      [
-        "-DNettle_INCLUDE_DIR=${nettle.dev}/include"
-        "-DNettle_LIBRARY=${nettle}/lib${stdenv.hostPlatform.extensions.sharedLibrary}"
-      ]
-    else if stdenv.hostPlatform.isDarwin then
+    if (stdenv.hostPlatform.isWindows || stdenv.hostPlatform.isDarwin) then
       [
         "-DNettle_INCLUDE_DIR=${nettle.dev}/include"
         "-DNettle_LIBRARY=${nettle}/lib"
@@ -67,6 +62,7 @@ stdenv.mkDerivation rec {
     cp -r --no-preserve=mode ${fatfs} fatfspp/fatfs
 
     ${lib.optionalString stdenv.hostPlatform.isDarwin ''
+      # this is kinda hacky
       echo 'set(CMAKE_EXE_LINKER_FLAGS "''${CMAKE_EXE_LINKER_FLAGS} -lnettle -lgmp")' >> CMakeLists.txt
     ''}
   '';
