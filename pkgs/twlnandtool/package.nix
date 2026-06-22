@@ -44,6 +44,15 @@ stdenv.mkDerivation rec {
         "-DNettle_INCLUDE_DIR=${nettle.dev}/include"
         "-DNettle_LIBRARY=${nettle}/lib${stdenv.hostPlatform.extensions.sharedLibrary}"
       ]
+    else if stdenv.hostPlatform.isDarwin then
+      [
+        "-DNettle_INCLUDE_DIR=${nettle.dev}/include"
+        "-DNettle_LIBRARY=${nettle}/lib"
+        "-DGMP_INCLUDE_DIR=${gmp.dev}/include"
+        "-DGMP_LIBRARY=${gmp}/lib"
+        "-DGMP_C_LIBRARIES=${gmp}/lib"
+        "-DGMP_CXX_LIBRARIES=${gmp}/lib"
+      ]
     else
       [ ];
 
@@ -56,6 +65,10 @@ stdenv.mkDerivation rec {
   postPatch = ''
     cp -r --no-preserve=mode ${fatfspp} fatfspp
     cp -r --no-preserve=mode ${fatfs} fatfspp/fatfs
+
+    ${lib.optionalString stdenv.hostPlatform.isDarwin ''
+      echo 'set(CMAKE_EXE_LINKER_FLAGS "''${CMAKE_EXE_LINKER_FLAGS} -lnettle -lgmp")' >> CMakeLists.txt
+    ''}
   '';
 
   installPhase = ''
@@ -72,7 +85,7 @@ stdenv.mkDerivation rec {
     license = licenses.gpl2Plus;
     platforms = platforms.all;
     # due to issues with finding nettle
-    broken = !stdenv.hostPlatform.isLinux;
+    broken = !(stdenv.hostPlatform.isLinux || stdenv.hostPlatform.isDarwin);
     mainProgram = "twlnandtool";
   };
 }
