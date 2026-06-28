@@ -81,6 +81,7 @@ rec {
   thextech = callPackage ./pkgs/thextech/package.nix { };
   thextech-smbx = callPackage ./pkgs/thextech/smbx.nix { inherit thextech; };
   thextech-aod = callPackage ./pkgs/thextech/aod.nix { inherit thextech; };
+  gmodpatchtool = callPackage ./pkgs/gmodpatchtool/package.nix { };
 
   kwin-move-window = callPackage ./pkgs/kwin-move-window/package.nix { };
 
