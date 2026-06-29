@@ -73,6 +73,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [wfs-tools-1.2.3-unstable-2025-03-19](https://github.com/koolkdev/wfs-tools) | wfs-tools | WFS (WiiU File System) Tools |
 | [wifiboot-host-unstable-2023-07-02](https://github.com/danny8376/wifiboot-host) | wifiboot-host | command line version uploader for https://problemkaputt.de/wifiboot.htm |
 | [xenonrecomp-0-unstable-2025-08-04](https://github.com/hedge-dev/XenonRecomp) | xenonrecomp | A tool for recompiling Xbox 360 games to native executables. |
+| [yt-dlp-2026.06.09-unstable-2026-06-28](https://github.com/yt-dlp/yt-dlp/) | yt-dlp-master | Feature-rich command-line audio/video downloader (master branch) |
 
 ## Overlay
 
