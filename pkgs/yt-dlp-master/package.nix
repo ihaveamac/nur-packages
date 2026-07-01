@@ -4,13 +4,13 @@
 }:
 
 yt-dlp.overrideAttrs (final: prev: {
-  version = "2026.06.09-unstable-2026-06-28";
+  version = "2026.06.09-unstable-2026-06-30";
 
   src = fetchFromGitHub {
     owner = "yt-dlp";
     repo = "yt-dlp";
-    rev = "5678b282e2a17a8181e682a9681461b9c82ff008";
-    hash = "sha256-8ZHnodqUmR2t2yuLfq5Mb7k84DEWppa0P+ifIprV93Y=";
+    rev = "e584a65f2a0feee0c6c363b3309e9ebd6065f6b4";
+    hash = "sha256-TyNijtU1pnnEAYC58wpvpL/F2wuMgG/I5N+Ao4sXxM8=";
   };
 
   meta = prev.meta // {
