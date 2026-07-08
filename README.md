@@ -40,12 +40,14 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [makerom-0.19.0](https://github.com/3DSGuy/Project_CTR) | makerom | make 3ds roms |
 | ~~[mediawiki-1.39.17](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_39~~ | ~~The collaborative editing software that runs Wikipedia~~ |
 | ~~[mediawiki-core-1.39.17](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_39\_core~~ | ~~The collaborative editing software that runs Wikipedia (without bundled extensions)~~ |
-| [mediawiki-1.43.8](https://www.mediawiki.org/) | mediawiki\_1\_43 | The collaborative editing software that runs Wikipedia |
-| [mediawiki-core-1.43.8](https://www.mediawiki.org/) | mediawiki\_1\_43\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
-| [mediawiki-1.44.5](https://www.mediawiki.org/) | mediawiki\_1\_44 | The collaborative editing software that runs Wikipedia |
-| [mediawiki-core-1.44.5](https://www.mediawiki.org/) | mediawiki\_1\_44\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
-| [mediawiki-1.45.3](https://www.mediawiki.org/) | mediawiki\_1\_45 | The collaborative editing software that runs Wikipedia |
-| [mediawiki-core-1.45.3](https://www.mediawiki.org/) | mediawiki\_1\_45\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
+| [mediawiki-1.43.9](https://www.mediawiki.org/) | mediawiki\_1\_43 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-core-1.43.9](https://www.mediawiki.org/) | mediawiki\_1\_43\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
+| [mediawiki-1.44.6](https://www.mediawiki.org/) | mediawiki\_1\_44 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-core-1.44.6](https://www.mediawiki.org/) | mediawiki\_1\_44\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
+| [mediawiki-1.45.4](https://www.mediawiki.org/) | mediawiki\_1\_45 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-core-1.45.4](https://www.mediawiki.org/) | mediawiki\_1\_45\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
+| [mediawiki-1.46.0](https://www.mediawiki.org/) | mediawiki\_1\_46 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-core-1.46.0](https://www.mediawiki.org/) | mediawiki\_1\_46\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
 | [mrpack-install-0.21.0-beta-unstable-2026-03-11](https://github.com/nothub/mrpack-install) | mrpack-install | Modrinth Modpack server deployment |
 | [otptool-1.0](https://github.com/SciresM/otptool) | otptool | view and extract data from a 3DS OTP |
 | [qcma-0.4.1-unstable-2025-07-14](https://codestation.github.io/qcma/) | qcma | Cross-platform content manager assistant for the PS Vita |
