@@ -21,5 +21,6 @@ update:
 	nix-update gmodpatchtool
 	nix-update vacuumtube
 	nix-update retro-aim-server
+	nix-update wheelwizard
 
 	nix-shell build-readme.nix
