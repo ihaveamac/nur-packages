@@ -38,7 +38,6 @@ stdenv.mkDerivation rec {
   ''
   + (
     if stdenv.isDarwin then
-      # TODO: check if this works
       ''
         contents=$out/Applications/NooDS.app/Contents
         mkdir -p $contents/{MacOS,Resources}

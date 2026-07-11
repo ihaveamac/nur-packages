@@ -49,8 +49,7 @@ buildNpmPackage rec {
   installPhase = ''
     runHook preInstall
   ''
-  + lib.optionalString stdenv.hostPlatform.isDarwin ''
-  ''
+  + lib.optionalString stdenv.hostPlatform.isDarwin ""
   + lib.optionalString stdenv.hostPlatform.isLinux ''
     mkdir -p $out/lib/vacuumtube
     cp -r . $out/lib/vacuumtube/
