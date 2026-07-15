@@ -1,6 +1,7 @@
 {
   fetchFromGitHub,
   buildDotnetModule,
+  stdenv,
   lib,
 }:
 
