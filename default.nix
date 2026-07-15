@@ -86,6 +86,7 @@ rec {
   wheelwizard = callPackage ./pkgs/wheelwizard/package.nix { };
   noods = callPackage ./pkgs/noods/package.nix { };
   rokuyon = callPackage ./pkgs/rokuyon/package.nix { };
+  ytdl-nfo = callPackage ./pkgs/ytdl-nfo/package.nix { };
 
   kwin-move-window = callPackage ./pkgs/kwin-move-window/package.nix { };
 

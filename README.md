@@ -79,6 +79,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [wifiboot-host-unstable-2023-07-02](https://github.com/danny8376/wifiboot-host) | wifiboot-host | command line version uploader for https://problemkaputt.de/wifiboot.htm |
 | [xenonrecomp-0-unstable-2025-08-04](https://github.com/hedge-dev/XenonRecomp) | xenonrecomp | A tool for recompiling Xbox 360 games to native executables. |
 | [yt-dlp-2026.07.04-unstable-2026-07-14](https://github.com/yt-dlp/yt-dlp/) | yt-dlp-master | Feature-rich command-line audio/video downloader (master branch) |
+| [ytdl-nfo-0.3.0](https://github.com/owdevel/ytdl-nfo) | ytdl-nfo | youtube-dl JSON metadata to Kodi-style NFO converter |
 
 ## Overlay
 
