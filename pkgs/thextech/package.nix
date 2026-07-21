@@ -14,8 +14,6 @@
   bashInteractive,
   makeDesktopItem,
   makeWrapper,
-  # TODO: remove when merged: https://github.com/NixOS/nixpkgs/pull/536365
-  llvmPackages,
 }:
 
 let
@@ -51,13 +49,7 @@ let
       cmake
       ninja
       git
-    # TODO: remove when merged: https://github.com/NixOS/nixpkgs/pull/536365
-    ] ++ (lib.optional stdenv.isDarwin llvmPackages.lld);
-
-    # TODO: remove when merged: https://github.com/NixOS/nixpkgs/pull/536365
-    env = lib.optionalAttrs stdenv.isDarwin {
-      NIX_CFLAGS_LINK = "--ld-path=${lib.getExe' llvmPackages.lld "ld64.lld"}";
-    };
+    ];
 
     preBuild = ''
       mkdir -p output/lib
