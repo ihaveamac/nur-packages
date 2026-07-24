@@ -12,7 +12,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 
 | Name | Attr | Description |
 | --- | --- | --- |
-| [3beans-release-unstable-2026-07-05](https://github.com/Hydr8gon/3Beans) | \_3beans | A low-level 3DS emulator (maybe) |
+| [3beans-release-unstable-2026-07-24](https://github.com/Hydr8gon/3Beans) | \_3beans | A low-level 3DS emulator (maybe) |
 | [3dslink-0.6.3](https://github.com/devkitPro/3dslink) | \_3dslink | Send 3DSX files to the Homebrew Launcher on 3DS |
 | [3dstool-1.2.6](https://github.com/dnasdw/3dstool) | \_3dstool | An all-in-one tool for extracting/creating 3ds roms. |
 | [3dstools-1.3.1](https://github.com/devkitpro/3dstools) | \_3dstools | Tools for 3DS homebrew |
@@ -30,7 +30,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [darctool-yls8-0-unstable-2015-11-21](https://github.com/yellows8/darctool) | darctool-yls8 | Tool for extracting and building 3DS darc archive files. |
 | [DiscordWikiBot-0-unstable-2026-06-18](https://github.com/stjohann/DiscordWikiBot) | discordwikibot | Discord bot for Wikimedia projects and MediaWiki wiki sites |
 | [ftpd-3.2.1](https://github.com/mtheall/ftpd) | ftpd | FTP Server for 3DS/Switch (and Linux) |
-| [gmodpatchtool-20260623](https://github.com/ticky/lnshot) | gmodpatchtool | Patches for Garry's Mod. Updates/Improves CEF and Fixes common launch/performance issues (esp. on Linux/Proton/macOS) |
+| [gmodpatchtool-20260722](https://github.com/ticky/lnshot) | gmodpatchtool | Patches for Garry's Mod. Updates/Improves CEF and Fixes common launch/performance issues (esp. on Linux/Proton/macOS) |
 | [kame-editor-1.4.1-unstable-2025-06-04](https://beelzy.gitlab.io/kame-editor/) | kame-editor | GUI frontend for kame-tools; makes custom 3DS themes. |
 | [kame-tools-1.3.8-unstable-2024-11-01](https://gitlab.com/beelzy/kame-tools) | kame-tools | Fork of bannertools that includes tools for making 3DS themes. |
 | [kwin-move-window-1.1.1](https://github.com/Merrit/kwin-move-window) | kwin-move-window | KWin script that adds shortcuts to move the active window with the keyboard |
@@ -73,12 +73,12 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [twlnandtool-1.0.1](https://github.com/TuxSH/twlnandtool) | twlnandtool | Modern drop-in replacement for twltool: fast decryption of DSi NAND dumps and system files. Written in C++14 |
 | [twltool-1.7-unstable-2024-01-21](https://github.com/WinterMute/twltool) | twltool | Nintendo DSi multitool |
 | [vacuumtube-1.8.1](https://github.com/shy1132/VacuumTube) | vacuumtube | YouTube Leanback on the desktop, with enhancements |
-| [vanilla-continuous-unstable-2026-07-10](https://github.com/vanilla-wiiu/vanilla) | vanilla | A software clone of the Wii U GamePad for Linux |
+| [vanilla-continuous-unstable-2026-07-22](https://github.com/vanilla-wiiu/vanilla) | vanilla | A software clone of the Wii U GamePad for Linux |
 | [wfs-tools-1.2.3-unstable-2025-03-19](https://github.com/koolkdev/wfs-tools) | wfs-tools | WFS (WiiU File System) Tools |
 | [wheelwizard-2.4.11](https://github.com/TeamWheelWizard/WheelWizard) | wheelwizard | Retro Rewind Launcher |
 | [wifiboot-host-unstable-2023-07-02](https://github.com/danny8376/wifiboot-host) | wifiboot-host | command line version uploader for https://problemkaputt.de/wifiboot.htm |
 | [xenonrecomp-0-unstable-2025-08-04](https://github.com/hedge-dev/XenonRecomp) | xenonrecomp | A tool for recompiling Xbox 360 games to native executables. |
-| [yt-dlp-2026.07.04-unstable-2026-07-21](https://github.com/yt-dlp/yt-dlp/) | yt-dlp-master | Feature-rich command-line audio/video downloader (master branch) |
+| [yt-dlp-2026.07.04-unstable-2026-07-23](https://github.com/yt-dlp/yt-dlp/) | yt-dlp-master | Feature-rich command-line audio/video downloader (master branch) |
 | [ytdl-nfo-0.3.0-unstable-2026-01-31](https://github.com/owdevel/ytdl-nfo) | ytdl-nfo | youtube-dl JSON metadata to Kodi-style NFO converter (fork with setuptools fix) |
 
 ## Overlay
