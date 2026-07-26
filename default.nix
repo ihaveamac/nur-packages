@@ -87,6 +87,7 @@ rec {
   noods = callPackage ./pkgs/noods/package.nix { };
   rokuyon = callPackage ./pkgs/rokuyon/package.nix { };
   ytdl-nfo = callPackage ./pkgs/ytdl-nfo/package.nix { };
+  chlink = callPackage ./pkgs/chlink/package.nix { };
 
   kwin-move-window = callPackage ./pkgs/kwin-move-window/package.nix { };
 
