@@ -16,8 +16,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "Hydr8gon";
     repo = "NooDS";
-    rev = "550b2334e1387e877bb943bf981433f41b7689b3";
-    hash = "sha256-WbbIDji/Are/nv/4nXUt4yzcB4U4gDmYIzCCZ7McmA0=";
+    rev = "07c17b616ba247911b612bda52bfa7924d1b120c";
+    hash = "sha256-HD/i4BkuLCoZpMlxUBVL8bVwCWKgSFW+lVXniWf7oBA=";
   };
 
   buildInputs = [
