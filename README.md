@@ -17,7 +17,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [3dstool-1.2.6](https://github.com/dnasdw/3dstool) | \_3dstool | An all-in-one tool for extracting/creating 3ds roms. |
 | [3dstools-1.3.1](https://github.com/devkitpro/3dstools) | \_3dstools | Tools for 3DS homebrew |
 | [3gxtool-1.3](https://gitlab.com/thepixellizeross/3gxtool) | \_3gxtool | An utility to generate 3GX plugins. |
-| [azahar-2126.0-rc5-unstable-2026-07-28](https://github.com/azahar-emu/azahar) | azahar-master | Open-source 3DS emulator project based on Citra (master branch) |
+| [azahar-2126.0-rc5-unstable-2026-07-31](https://github.com/azahar-emu/azahar) | azahar-master | Open-source 3DS emulator project based on Citra (master branch) |
 | [bannertool-2024-11-30](https://github.com/ihaveamac/3ds-bannertool) | bannertool | A tool for creating 3DS banners. (Mix of Windows unicode fix and CMake build system) |
 | [caesar-0.4.2-unstable-2022-08-16](https://github.com/kr3nshaw/caesar) | caesar | A tool that extracts the contents of Citrus Sound Archives |
 | [chlink-5.0.0](https://github.com/BernardoGiordano/Checkpoint) | chlink | Companion PC CLI for Checkpoint's wireless save transfer |
@@ -73,7 +73,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [thextech-smbx-1.3.7.3-1](https://wohlsoft.ru/projects/TheXTech/) | thextech-smbx | Super Mario Bros. X, on TheXTech engine |
 | [twlnandtool-1.0.1](https://github.com/TuxSH/twlnandtool) | twlnandtool | Modern drop-in replacement for twltool: fast decryption of DSi NAND dumps and system files. Written in C++14 |
 | [twltool-1.7-unstable-2024-01-21](https://github.com/WinterMute/twltool) | twltool | Nintendo DSi multitool |
-| [vacuumtube-1.8.1](https://github.com/shy1132/VacuumTube) | vacuumtube | YouTube Leanback on the desktop, with enhancements |
+| [vacuumtube-1.8.2](https://github.com/shy1132/VacuumTube) | vacuumtube | YouTube Leanback on the desktop, with enhancements |
 | [vanilla-continuous-unstable-2026-07-30](https://github.com/vanilla-wiiu/vanilla) | vanilla | A software clone of the Wii U GamePad for Linux |
 | [wfs-tools-1.2.3-unstable-2025-03-19](https://github.com/koolkdev/wfs-tools) | wfs-tools | WFS (WiiU File System) Tools |
 | [wheelwizard-2.4.11](https://github.com/TeamWheelWizard/WheelWizard) | wheelwizard | Retro Rewind Launcher |
