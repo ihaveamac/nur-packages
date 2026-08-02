@@ -11,13 +11,13 @@
 
 stdenv.mkDerivation rec {
   pname = "noods";
-  version = "release-unstable-2026-07-30";
+  version = "release-unstable-2026-08-01";
 
   src = fetchFromGitHub {
     owner = "Hydr8gon";
     repo = "NooDS";
-    rev = "ed484216ad8b26f3c26b19436b605124a80e29d7";
-    hash = "sha256-lrhl3ZxerA8Cd2jD/XIQZz9+cssBFgwrBqEW+zTFWGM=";
+    rev = "09bec7172ab66f3580536922b09c094a18d157a4";
+    hash = "sha256-JUR2bAR2IsVly0crBN2f+Yk5wCmG/gJlbO5+HYNCSSI=";
   };
 
   buildInputs = [
