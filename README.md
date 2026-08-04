@@ -50,7 +50,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [mediawiki-1.46.0](https://www.mediawiki.org/) | mediawiki\_1\_46 | The collaborative editing software that runs Wikipedia |
 | [mediawiki-core-1.46.0](https://www.mediawiki.org/) | mediawiki\_1\_46\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
 | [mrpack-install-0.21.0-beta-unstable-2026-03-11](https://github.com/nothub/mrpack-install) | mrpack-install | Modrinth Modpack server deployment |
-| [noods-release-unstable-2026-08-01](https://github.com/Hydr8gon/NooDS) | noods | A (hopefully!) speedy DS emulator |
+| [noods-release-unstable-2026-08-03](https://github.com/Hydr8gon/NooDS) | noods | A (hopefully!) speedy DS emulator |
 | [otptool-1.0](https://github.com/SciresM/otptool) | otptool | view and extract data from a 3DS OTP |
 | [qcma-0.4.1-unstable-2025-07-14](https://codestation.github.io/qcma/) | qcma | Cross-platform content manager assistant for the PS Vita |
 | [retro-aim-server-0.24.0](https://github.com/mk6i/retro-aim-server) | retro-aim-server | Self-hostable instant messaging server compatible with classic AIM and ICQ clients |
@@ -74,7 +74,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [twlnandtool-1.0.1](https://github.com/TuxSH/twlnandtool) | twlnandtool | Modern drop-in replacement for twltool: fast decryption of DSi NAND dumps and system files. Written in C++14 |
 | [twltool-1.7-unstable-2024-01-21](https://github.com/WinterMute/twltool) | twltool | Nintendo DSi multitool |
 | [vacuumtube-1.8.2](https://github.com/shy1132/VacuumTube) | vacuumtube | YouTube Leanback on the desktop, with enhancements |
-| [vanilla-continuous-unstable-2026-08-01](https://github.com/vanilla-wiiu/vanilla) | vanilla | A software clone of the Wii U GamePad for Linux |
+| [vanilla-continuous-unstable-2026-08-02](https://github.com/vanilla-wiiu/vanilla) | vanilla | A software clone of the Wii U GamePad for Linux |
 | [wfs-tools-1.2.3-unstable-2025-03-19](https://github.com/koolkdev/wfs-tools) | wfs-tools | WFS (WiiU File System) Tools |
 | [wheelwizard-2.4.11](https://github.com/TeamWheelWizard/WheelWizard) | wheelwizard | Retro Rewind Launcher |
 | [wifiboot-host-unstable-2023-07-02](https://github.com/danny8376/wifiboot-host) | wifiboot-host | command line version uploader for https://problemkaputt.de/wifiboot.htm |
