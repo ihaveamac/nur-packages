@@ -41,7 +41,7 @@ stdenv.mkDerivation rec {
       ''
         contents=$out/Applications/NooDS.app/Contents
         mkdir -p $contents/{MacOS,Resources}
-        cp Info.plist $contents
+        cp meta/Info-macOS.plist $contents/Info.plist
         cp noods $contents/MacOS/NooDS
         cp icon/icon-mac.icns $contents/Resources/NooDS.icns
         ln -s $contents/MacOS/NooDS $out/bin/noods
