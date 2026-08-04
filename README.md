@@ -74,12 +74,12 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [twlnandtool-1.0.1](https://github.com/TuxSH/twlnandtool) | twlnandtool | Modern drop-in replacement for twltool: fast decryption of DSi NAND dumps and system files. Written in C++14 |
 | [twltool-1.7-unstable-2024-01-21](https://github.com/WinterMute/twltool) | twltool | Nintendo DSi multitool |
 | [vacuumtube-1.8.2](https://github.com/shy1132/VacuumTube) | vacuumtube | YouTube Leanback on the desktop, with enhancements |
-| [vanilla-continuous-unstable-2026-08-02](https://github.com/vanilla-wiiu/vanilla) | vanilla | A software clone of the Wii U GamePad for Linux |
+| [vanilla-continuous-unstable-2026-08-04](https://github.com/vanilla-wiiu/vanilla) | vanilla | A software clone of the Wii U GamePad for Linux |
 | [wfs-tools-1.2.3-unstable-2025-03-19](https://github.com/koolkdev/wfs-tools) | wfs-tools | WFS (WiiU File System) Tools |
 | [wheelwizard-2.4.11](https://github.com/TeamWheelWizard/WheelWizard) | wheelwizard | Retro Rewind Launcher |
 | [wifiboot-host-unstable-2023-07-02](https://github.com/danny8376/wifiboot-host) | wifiboot-host | command line version uploader for https://problemkaputt.de/wifiboot.htm |
 | [xenonrecomp-0-unstable-2025-08-04](https://github.com/hedge-dev/XenonRecomp) | xenonrecomp | A tool for recompiling Xbox 360 games to native executables. |
-| [yt-dlp-2026.07.04-unstable-2026-07-23](https://github.com/yt-dlp/yt-dlp/) | yt-dlp-master | Feature-rich command-line audio/video downloader (master branch) |
+| [yt-dlp-2026.07.04-unstable-2026-08-04](https://github.com/yt-dlp/yt-dlp/) | yt-dlp-master | Feature-rich command-line audio/video downloader (master branch) |
 | [ytdl-nfo-0.3.0-unstable-2026-01-31](https://github.com/owdevel/ytdl-nfo) | ytdl-nfo | youtube-dl JSON metadata to Kodi-style NFO converter (fork with setuptools fix) |
 
 ## Overlay
