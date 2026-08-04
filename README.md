@@ -43,8 +43,8 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | ~~[mediawiki-core-1.39.17](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_39\_core~~ | ~~The collaborative editing software that runs Wikipedia (without bundled extensions)~~ |
 | [mediawiki-1.43.9](https://www.mediawiki.org/) | mediawiki\_1\_43 | The collaborative editing software that runs Wikipedia |
 | [mediawiki-core-1.43.9](https://www.mediawiki.org/) | mediawiki\_1\_43\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
-| [mediawiki-1.44.6](https://www.mediawiki.org/) | mediawiki\_1\_44 | The collaborative editing software that runs Wikipedia |
-| [mediawiki-core-1.44.6](https://www.mediawiki.org/) | mediawiki\_1\_44\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
+| ~~[mediawiki-1.44.6](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_44~~ | ~~The collaborative editing software that runs Wikipedia~~ |
+| ~~[mediawiki-core-1.44.6](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_44\_core~~ | ~~The collaborative editing software that runs Wikipedia (without bundled extensions)~~ |
 | [mediawiki-1.45.4](https://www.mediawiki.org/) | mediawiki\_1\_45 | The collaborative editing software that runs Wikipedia |
 | [mediawiki-core-1.45.4](https://www.mediawiki.org/) | mediawiki\_1\_45\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
 | [mediawiki-1.46.0](https://www.mediawiki.org/) | mediawiki\_1\_46 | The collaborative editing software that runs Wikipedia |

@@ -100,15 +100,6 @@ rec {
     hash = "sha256-etCk/QYgYCoYQLhmFktYMtxw2BRs2ARivP0b8Br90TE=";
     core = true;
   };
-  mediawiki_1_44 = callPackage ./pkgs/mediawiki/package.nix {
-    version = "1.44.6";
-    hash = "sha256-KBFZrWk/ahuHzpeTGXuCe4dvWNwFCM3jjLHIq6boLFk=";
-  };
-  mediawiki_1_44_core = callPackage ./pkgs/mediawiki/package.nix {
-    version = "1.44.6";
-    hash = "sha256-qSWs/KypR5D/HcfRO5PwaJReEgB2gi20QI84k9xvbNg=";
-    core = true;
-  };
   mediawiki_1_45 = callPackage ./pkgs/mediawiki/package.nix {
     version = "1.45.4";
     hash = "sha256-y3yCRGjrWlEacvCOYpHQncivEuCg/9wlMu4/drsMrXw=";
@@ -139,6 +130,17 @@ rec {
     hash = "sha256-CsYsjw2qCfuBvImA7H6K2bWo6b2k7yag6eBFtpo20kk=";
     core = true;
     knownVulnerabilities = [ "MediaWiki 1.39 has been end-of-life since 2025-12-31." ];
+  };
+  mediawiki_1_44 = callPackage ./pkgs/mediawiki/package.nix {
+    version = "1.44.6";
+    hash = "sha256-KBFZrWk/ahuHzpeTGXuCe4dvWNwFCM3jjLHIq6boLFk=";
+    knownVulnerabilities = [ "MediaWiki 1.44 has been end-of-life since 2026-07-31." ];
+  };
+  mediawiki_1_44_core = callPackage ./pkgs/mediawiki/package.nix {
+    version = "1.44.6";
+    hash = "sha256-qSWs/KypR5D/HcfRO5PwaJReEgB2gi20QI84k9xvbNg=";
+    knownVulnerabilities = [ "MediaWiki 1.44 has been end-of-life since 2026-07-31." ];
+    core = true;
   };
 
   # compatibility
