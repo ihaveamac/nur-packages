@@ -17,7 +17,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [3dstool-1.2.6](https://github.com/dnasdw/3dstool) | \_3dstool | An all-in-one tool for extracting/creating 3ds roms. |
 | [3dstools-1.3.1](https://github.com/devkitpro/3dstools) | \_3dstools | Tools for 3DS homebrew |
 | [3gxtool-1.3](https://gitlab.com/thepixellizeross/3gxtool) | \_3gxtool | An utility to generate 3GX plugins. |
-| [azahar-2126.0-rc5-unstable-2026-08-07](https://github.com/azahar-emu/azahar) | azahar-master | Open-source 3DS emulator project based on Citra (master branch) |
+| [azahar-2126.0-unstable-2026-08-10](https://github.com/azahar-emu/azahar) | azahar-master | Open-source 3DS emulator project based on Citra (master branch) |
 | [bannertool-2024-11-30](https://github.com/ihaveamac/3ds-bannertool) | bannertool | A tool for creating 3DS banners. (Mix of Windows unicode fix and CMake build system) |
 | [caesar-0.4.2-unstable-2022-08-16](https://github.com/kr3nshaw/caesar) | caesar | A tool that extracts the contents of Citrus Sound Archives |
 | [chlink-5.0.0](https://github.com/BernardoGiordano/Checkpoint) | chlink | Companion PC CLI for Checkpoint's wireless save transfer |
@@ -50,7 +50,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [mediawiki-1.46.0](https://www.mediawiki.org/) | mediawiki\_1\_46 | The collaborative editing software that runs Wikipedia |
 | [mediawiki-core-1.46.0](https://www.mediawiki.org/) | mediawiki\_1\_46\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
 | [mrpack-install-0.21.0-beta-unstable-2026-03-11](https://github.com/nothub/mrpack-install) | mrpack-install | Modrinth Modpack server deployment |
-| [noods-release-unstable-2026-08-03](https://github.com/Hydr8gon/NooDS) | noods | A (hopefully!) speedy DS emulator |
+| [noods-release-unstable-2026-08-09](https://github.com/Hydr8gon/NooDS) | noods | A (hopefully!) speedy DS emulator |
 | [otptool-1.0](https://github.com/SciresM/otptool) | otptool | view and extract data from a 3DS OTP |
 | [qcma-0.4.1-unstable-2025-07-14](https://codestation.github.io/qcma/) | qcma | Cross-platform content manager assistant for the PS Vita |
 | [retro-aim-server-0.24.0](https://github.com/mk6i/retro-aim-server) | retro-aim-server | Self-hostable instant messaging server compatible with classic AIM and ICQ clients |
