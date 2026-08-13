@@ -50,7 +50,7 @@ stdenv.mkDerivation rec {
       ''
         mkdir -p $out/share/applications $out/share/icons/hicolor/64x64/apps
         cp noods $out/bin
-        cp com.hydra.noods.desktop $out/share/applications
+        cp meta/com.hydra.noods.desktop $out/share/applications
         cp icon/icon-linux.png $out/share/icons/hicolor/64x64/apps/com.hydra.threebeans.png
       ''
   );
