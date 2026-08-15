@@ -19,7 +19,7 @@ buildDotnetModule rec {
   projectFile = "WheelWizard/WheelWizard.csproj";
   nugetDeps = ./deps.json;
 
-  postInstall = lib.optionalString (!stdenv.isDarwin) ''
+  postInstall = lib.optionalString (!stdenv.hostPlatform.isDarwin) ''
     mkdir -p mkdir -p $out/share/applications $out/share/icons/hicolor/256x256/apps
     cp $src/Flatpak/io.github.TeamWheelWizard.WheelWizard.desktop \
       $src/Flatpak/io.github.TeamWheelWizard.WheelWizard-url-handler.desktop \

@@ -25,7 +25,7 @@ azahar.overrideAttrs (
       description = prev.meta.description + " (master branch)";
       platforms = lib.platforms.aarch64 ++ lib.platforms.x86_64;
       # empty output
-      broken = stdenv.isDarwin;
+      broken = stdenv.hostPlatform.isDarwin;
     };
   }
 )

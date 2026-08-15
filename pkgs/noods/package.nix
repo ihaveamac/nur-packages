@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
     mkdir -p $out/bin
   ''
   + (
-    if stdenv.isDarwin then
+    if stdenv.hostPlatform.isDarwin then
       ''
         contents=$out/Applications/NooDS.app/Contents
         mkdir -p $contents/{MacOS,Resources}
