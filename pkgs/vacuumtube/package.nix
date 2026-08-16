@@ -25,6 +25,8 @@ buildNpmPackage rec {
 
   npmDepsHash = "sha256-Wtyft343sSs018v5bagCvvta5z+yzU9IgkJ4LH+HQzs=";
 
+  makeCacheWritable = true;
+
   env = {
     ELECTRON_SKIP_BINARY_DOWNLOAD = "1";
     NIX_CFLAGS_COMPILE = "-I${pkgs.nodejs}/include/node";
