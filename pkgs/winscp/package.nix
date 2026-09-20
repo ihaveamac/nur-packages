@@ -76,29 +76,30 @@ stdenvNoCC.mkDerivation rec {
     mkdir -p $out/{bin,share/{applications,icons/hicolor}}
 
     # is this stable? it works for at least 6.5.7
-    #T=$(mktemp -d)
-    T=$PWD
-    7z x $src/WinSCP.exe -o$T
+    7z x $src/WinSCP.exe
     for f in 256 128 64 60 48 42 40 32 24 20 16; do
       mkdir -p $out/share/icons/hicolor/''${f}x''${f}
     done
-    cp $T/.rsrc/1033/ICON/1 $out/share/icons/hicolor/256x256/winscp.png
-    magick $T/.rsrc/1033/ICON/2.ico  $out/share/icons/hicolor/128x128/winscp.png
-    magick $T/.rsrc/1033/ICON/3.ico  $out/share/icons/hicolor/64x64/winscp.png
-    magick $T/.rsrc/1033/ICON/4.ico  $out/share/icons/hicolor/60x60/winscp.png
-    magick $T/.rsrc/1033/ICON/5.ico  $out/share/icons/hicolor/48x48/winscp.png
-    magick $T/.rsrc/1033/ICON/6.ico  $out/share/icons/hicolor/42x42/winscp.png
-    magick $T/.rsrc/1033/ICON/7.ico  $out/share/icons/hicolor/40x40/winscp.png
-    magick $T/.rsrc/1033/ICON/8.ico  $out/share/icons/hicolor/32x32/winscp.png
-    magick $T/.rsrc/1033/ICON/9.ico  $out/share/icons/hicolor/24x24/winscp.png
-    magick $T/.rsrc/1033/ICON/10.ico $out/share/icons/hicolor/20x20/winscp.png
-    magick $T/.rsrc/1033/ICON/11.ico $out/share/icons/hicolor/16x16/winscp.png
+    cp .rsrc/1033/ICON/1 $out/share/icons/hicolor/256x256/winscp.png
+    magick .rsrc/1033/ICON/2.ico  $out/share/icons/hicolor/128x128/winscp.png
+    magick .rsrc/1033/ICON/3.ico  $out/share/icons/hicolor/64x64/winscp.png
+    magick .rsrc/1033/ICON/4.ico  $out/share/icons/hicolor/60x60/winscp.png
+    magick .rsrc/1033/ICON/5.ico  $out/share/icons/hicolor/48x48/winscp.png
+    magick .rsrc/1033/ICON/6.ico  $out/share/icons/hicolor/42x42/winscp.png
+    magick .rsrc/1033/ICON/7.ico  $out/share/icons/hicolor/40x40/winscp.png
+    magick .rsrc/1033/ICON/8.ico  $out/share/icons/hicolor/32x32/winscp.png
+    magick .rsrc/1033/ICON/9.ico  $out/share/icons/hicolor/24x24/winscp.png
+    magick .rsrc/1033/ICON/10.ico $out/share/icons/hicolor/20x20/winscp.png
+    magick .rsrc/1033/ICON/11.ico $out/share/icons/hicolor/16x16/winscp.png
 
     makeWrapper ${winePackages.stable}/bin/wine $out/bin/winscp \
       --set WINEDEBUG "-all" \
       --set WINEDLLOVERRIDES "mscoree=d" \
-      --run "export WINEPREFIX=\''${XDG_DATA_HOME:-\$HOME/.local/share}/winscp" \
-      --add-flags $src/WinSCP.exe
+      --run "export WINSCP_DIR=\''${XDG_DATA_HOME:-\$HOME/.local/share}" \
+      --run "mkdir -p \$WINSCP_DIR/winscp/wineprefix" \
+      --run "touch \$WINSCP_DIR/winscp/WinSCP.ini" \
+      --run "export WINEPREFIX=\$WINSCP_DIR/winscp/wineprefix" \
+      --add-flags "$src/WinSCP.exe /ini=Z:/\$WINSCP_DIR/winscp/WinSCP.ini"
 
     ln -s $src $out/share/winscp
     cp ${desktopItem}/share/applications/*.desktop $out/share/applications/
