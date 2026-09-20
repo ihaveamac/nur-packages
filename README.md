@@ -80,6 +80,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [wfs-tools-1.2.3-unstable-2025-03-19](https://github.com/koolkdev/wfs-tools) | wfs-tools | WFS (WiiU File System) Tools |
 | [wheelwizard-2.5.7](https://github.com/TeamWheelWizard/WheelWizard) | wheelwizard | Retro Rewind Launcher |
 | [wifiboot-host-unstable-2023-07-02](https://github.com/danny8376/wifiboot-host) | wifiboot-host | command line version uploader for https://problemkaputt.de/wifiboot.htm |
+| [winscp-6.5.7](https://winscp.net) | winscp | SFTP, FTP, WebDAV, S3 and SCP client for Windows (Wine wrapper) |
 | [xenonrecomp-0-unstable-2025-08-04](https://github.com/hedge-dev/XenonRecomp) | xenonrecomp | A tool for recompiling Xbox 360 games to native executables. |
 | [yt-dlp-2026.08.19-unstable-2026-09-16](https://github.com/yt-dlp/yt-dlp/) | yt-dlp-master | Feature-rich command-line audio/video downloader (master branch) |
 | [ytdl-nfo-0.3.0-unstable-2026-01-31](https://github.com/owdevel/ytdl-nfo) | ytdl-nfo | youtube-dl JSON metadata to Kodi-style NFO converter (fork with setuptools fix) |
