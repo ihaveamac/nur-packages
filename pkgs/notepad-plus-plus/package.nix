@@ -74,7 +74,7 @@ stdenvNoCC.mkDerivation rec {
   meta = {
     description = "Source code editor for Windows (Wine wrapper)";
     homepage = "https://notepad-plus-plus.org";
-    license = lib.licenses.gpl3OrLater;
+    license = lib.licenses.gpl3Plus;
     platforms = lib.platforms.unix;
     broken = stdenvNoCC.hostPlatform.isDarwin; # can it even ever work on macOS?
     mainProgram = "notepad++";
