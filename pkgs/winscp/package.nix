@@ -112,7 +112,7 @@ stdenvNoCC.mkDerivation rec {
     description = "SFTP, FTP, WebDAV, S3 and SCP client for Windows (Wine wrapper)";
     homepage = "https://winscp.net";
     license = lib.licenses.gpl3Only; # this is missing the license for WinSCP icons
-    platforms = winePackages.stable.meta.platforms;
+    platforms = [ "i686-linux" "x86_64-linux" ];
     broken = stdenvNoCC.hostPlatform.isDarwin; # can it even ever work on macOS?
     mainProgram = "winscp";
   };
