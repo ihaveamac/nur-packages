@@ -109,12 +109,12 @@ let
         # TODO: make this support directories
         src = gameSrc;
 
-        nativeBuildInputs = lib.optional stdenvNoCC.isDarwin makeWrapper;
+        nativeBuildInputs = lib.optional stdenvNoCC.hostPlatform.isDarwin makeWrapper;
 
         # TODO: update Info.plist (probably with PlistBuddy)
         # TODO; figure out why it's not loading assets from this location
         installPhase =
-          if stdenvNoCC.isDarwin then
+          if stdenvNoCC.hostPlatform.isDarwin then
             ''
               appDir="$out/Applications/${gameName}.app"
               echo $appDir
@@ -161,6 +161,6 @@ let
   };
 in
 if stdenv.hostPlatform.isDarwin then
-  lib.warn "macOS implementation is incomplete, but the game launches" thextech
+  lib.warn "macOS implementation of TheXTech's package is incomplete, but the game launches" thextech
 else
   thextech
