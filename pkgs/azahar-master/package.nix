@@ -8,12 +8,12 @@
 azahar.overrideAttrs (
   final: prev: {
     pname = "azahar";
-    version = "2126.1.2-unstable-2026-09-21";
+    version = "2126.1.2-unstable-2026-09-26";
     src = fetchFromGitHub {
       owner = "azahar-emu";
       repo = "azahar";
-      rev = "7fbe541c00f9f569d7560bdf19a891bf2f6f6af6";
-      hash = "sha256-wye2xeKIsxnp+QUH0NO9tXZtQHGtZ0AGxvbFtqPxIrY=";
+      rev = "955ef51a27f2e2c3de340ec0f972407aef955eca";
+      hash = "sha256-fLncJXXYQTl6lvGMHdkBenROJ+qjrHmDH3rhRwz6QHk=";
       fetchSubmodules = true;
     };
 
