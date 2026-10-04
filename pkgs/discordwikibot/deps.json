@@ -6,18 +6,18 @@
   },
   {
     "pname": "DSharpPlus",
-    "version": "4.5.2",
-    "hash": "sha256-Syo9ZJZGrrhONoianmlOdiuxCxc/qamYzzNawWPii4Y="
+    "version": "4.5.3",
+    "hash": "sha256-GuRYIPiAvtrNST8VRl5EbMjxmq9o6IT8+oThsMPA05U="
   },
   {
     "pname": "DSharpPlus.CommandsNext",
-    "version": "4.5.2",
-    "hash": "sha256-BaeYZEJmQzMZCuiNwWddfuNbVf6W0Vfc0/PE3T/51rU="
+    "version": "4.5.3",
+    "hash": "sha256-LMutmA/pN8ms4WU0ZqHlIYXLnRXp8T8mHzkahWZeCiE="
   },
   {
     "pname": "LaunchDarkly.EventSource",
-    "version": "5.3.0",
-    "hash": "sha256-YNRV+rCVUt/9J68DDYsqjUU2VNMxsEPEuCM08S3eOUA="
+    "version": "5.3.2",
+    "hash": "sha256-xQdN0d9etIGyH+qiOQzQahPBEQ/SbYASQhPkDr48jVU="
   },
   {
     "pname": "LaunchDarkly.Logging",
