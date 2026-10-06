@@ -17,7 +17,7 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [3dstool-1.2.6](https://github.com/dnasdw/3dstool) | \_3dstool | An all-in-one tool for extracting/creating 3ds roms. |
 | [3dstools-1.3.1](https://github.com/devkitpro/3dstools) | \_3dstools | Tools for 3DS homebrew |
 | [3gxtool-1.3](https://gitlab.com/thepixellizeross/3gxtool) | \_3gxtool | An utility to generate 3GX plugins. |
-| [azahar-2126.1.2-unstable-2026-10-03](https://github.com/azahar-emu/azahar) | azahar-master | Open-source 3DS emulator project based on Citra (master branch) |
+| [azahar-2126.1.2-unstable-2026-10-04](https://github.com/azahar-emu/azahar) | azahar-master | Open-source 3DS emulator project based on Citra (master branch) |
 | [bannertool-2024-11-30](https://github.com/ihaveamac/3ds-bannertool) | bannertool | A tool for creating 3DS banners. (Mix of Windows unicode fix and CMake build system) |
 | [caesar-0.4.2-unstable-2022-08-16](https://github.com/kr3nshaw/caesar) | caesar | A tool that extracts the contents of Citrus Sound Archives |
 | [chlink-5.0.0](https://github.com/BernardoGiordano/Checkpoint) | chlink | Companion PC CLI for Checkpoint's wireless save transfer |
@@ -43,14 +43,14 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [makerom-0.19.0](https://github.com/3DSGuy/Project_CTR) | makerom | make 3ds roms |
 | ~~[mediawiki-1.39.17](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_39~~ | ~~The collaborative editing software that runs Wikipedia~~ |
 | ~~[mediawiki-core-1.39.17](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_39\_core~~ | ~~The collaborative editing software that runs Wikipedia (without bundled extensions)~~ |
-| [mediawiki-1.43.9](https://www.mediawiki.org/) | mediawiki\_1\_43 | The collaborative editing software that runs Wikipedia |
-| [mediawiki-core-1.43.9](https://www.mediawiki.org/) | mediawiki\_1\_43\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
+| [mediawiki-1.43.11](https://www.mediawiki.org/) | mediawiki\_1\_43 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-core-1.43.11](https://www.mediawiki.org/) | mediawiki\_1\_43\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
 | ~~[mediawiki-1.44.6](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_44~~ | ~~The collaborative editing software that runs Wikipedia~~ |
 | ~~[mediawiki-core-1.44.6](https://www.mediawiki.org/)~~ | ~~mediawiki\_1\_44\_core~~ | ~~The collaborative editing software that runs Wikipedia (without bundled extensions)~~ |
-| [mediawiki-1.45.4](https://www.mediawiki.org/) | mediawiki\_1\_45 | The collaborative editing software that runs Wikipedia |
-| [mediawiki-core-1.45.4](https://www.mediawiki.org/) | mediawiki\_1\_45\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
-| [mediawiki-1.46.0](https://www.mediawiki.org/) | mediawiki\_1\_46 | The collaborative editing software that runs Wikipedia |
-| [mediawiki-core-1.46.0](https://www.mediawiki.org/) | mediawiki\_1\_46\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
+| [mediawiki-1.45.6](https://www.mediawiki.org/) | mediawiki\_1\_45 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-core-1.45.6](https://www.mediawiki.org/) | mediawiki\_1\_45\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
+| [mediawiki-1.46.2](https://www.mediawiki.org/) | mediawiki\_1\_46 | The collaborative editing software that runs Wikipedia |
+| [mediawiki-core-1.46.2](https://www.mediawiki.org/) | mediawiki\_1\_46\_core | The collaborative editing software that runs Wikipedia (without bundled extensions) |
 | [mrpack-install-0.21.0-beta-unstable-2026-03-11](https://github.com/nothub/mrpack-install) | mrpack-install | Modrinth Modpack server deployment |
 | [noods-release-unstable-2026-08-09](https://github.com/Hydr8gon/NooDS) | noods | A (hopefully!) speedy DS emulator |
 | [notepad++-8.9.8](https://notepad-plus-plus.org) | notepad-plus-plus | Source code editor for Windows (Wine wrapper) |
@@ -71,9 +71,9 @@ NUR link: https://nur.nix-community.org/repos/ihaveamac/
 | [switch-tools-1.13.1](https://github.com/switchbrew/switch-tools) | switch-tools | Various Nintendo Switch homebrew tools |
 | [tex3ds-2.3.0](https://github.com/devkitPro/tex3ds) | tex3ds | 3DS Texture Conversion |
 | [themethod3-0-unstable-2025-05-26](https://github.com/DarkRTA/themethod3) | themethod3 | Tool for decrypting all mogg files used by the Rock Band series |
-| [thextech-1.3.7.3-1](https://wohlsoft.ru/projects/TheXTech/) | thextech | The full port of the SMBX engine from VB6 into C++ and SDL2, FreeImage and MixerX |
-| [thextech-aod-1.3.7.3-1](https://wohlsoft.ru/projects/TheXTech/) | thextech-aod | Adventures of Demo, on TheXTech engine |
-| [thextech-smbx-1.3.7.3-1](https://wohlsoft.ru/projects/TheXTech/) | thextech-smbx | Super Mario Bros. X, on TheXTech engine |
+| [thextech-1.7.4](https://wohlsoft.ru/projects/TheXTech/) | thextech | The full port of the SMBX engine from VB6 into C++ and SDL2, FreeImage and MixerX |
+| [thextech-aod-1.7.4](https://wohlsoft.ru/projects/TheXTech/) | thextech-aod | Adventures of Demo, on TheXTech engine |
+| [thextech-smbx-1.7.4](https://wohlsoft.ru/projects/TheXTech/) | thextech-smbx | Super Mario Bros. X, on TheXTech engine |
 | [twlnandtool-1.0.1](https://github.com/TuxSH/twlnandtool) | twlnandtool | Modern drop-in replacement for twltool: fast decryption of DSi NAND dumps and system files. Written in C++14 |
 | [twltool-1.7-unstable-2024-01-21](https://github.com/WinterMute/twltool) | twltool | Nintendo DSi multitool |
 | [vacuumtube-1.8.2](https://github.com/shy1132/VacuumTube) | vacuumtube | YouTube Leanback on the desktop, with enhancements |
