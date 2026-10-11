@@ -39,7 +39,6 @@ rec {
   _3dslink = callPackage ./pkgs/3dslink/package.nix { };
   discordwikibot = callPackage ./pkgs/discordwikibot/package.nix { };
   sd-format-linux = callPackage ./pkgs/sd-format-linux/package.nix { };
-  #unxip = callPackage ./pkgs/unxip/package.nix { };
   corgi3ds = libsForQt5.callPackage ./pkgs/corgi3ds/package.nix { };
   ftpd = callPackage ./pkgs/ftpd/package.nix { };
   darctool = callPackage ./pkgs/darctool/package.nix { };
