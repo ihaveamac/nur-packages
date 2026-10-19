@@ -18,7 +18,7 @@
 }:
 
 let
-  fullVersion = "1.7.4";
+  fullVersion = "1.7.4.1";
   versionNoHotfix = builtins.concatStringsSep "." (lib.take 4 (lib.splitVersion fullVersion));
   thextech = stdenv.mkDerivation rec {
     pname = "thextech";
@@ -26,7 +26,7 @@ let
 
     src = fetchzip {
       url = "https://github.com/TheXTech/TheXTech/releases/download/v${versionNoHotfix}/thextech-full-src-v${versionNoHotfix}.tar.bz2";
-      hash = "sha256-BWHy4J3J4aMZ6GwPOkdizVOemDG0AaQ7OtjkuJdVTtM=";
+      hash = "sha256-cCvN0XAKMx4BCqGUothE3fpEGuUyW68MyNtvqK9mHFE=";
     };
     #src = fetchFromGitHub {
     #  owner = "TheXTech";
