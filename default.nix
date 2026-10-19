@@ -89,6 +89,7 @@ rec {
   chlink = callPackage ./pkgs/chlink/package.nix { };
   winscp = callPackage ./pkgs/winscp/package.nix { };
   notepad-plus-plus = callPackage ./pkgs/notepad-plus-plus/package.nix { };
+  opentmux = callPackage ./pkgs/opentmux/package.nix { };
 
   eviUtils = callPackage ./pkgs/evi/plugins/utils/vim-utils.nix { };
   evi = eviUtils.makeCustomizable ( callPackage ./pkgs/evi {} );
