@@ -158,6 +158,7 @@ rec {
     { }
   else
     rec {
+      dymo-bluetooth = python3Packages.callPackage ./pkgs/dymo-bluetooth/package.nix { };
       wlmaker = callPackage ./pkgs/wlmaker/package.nix { };
       aeroshell-libplasma = qt6.callPackage ./pkgs/aeroshell-libplasma/package.nix { };
       aeroshell-kwin-components = qt6.callPackage ./pkgs/aeroshell-kwin-components/package.nix {
