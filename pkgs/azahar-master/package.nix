@@ -2,10 +2,11 @@
   lib,
   stdenv,
   azahar,
+  ffmpeg_7-headless,
   fetchFromGitHub,
 }:
 
-azahar.overrideAttrs (
+(azahar.override { ffmpeg_6-headless = ffmpeg_7-headless; }).overrideAttrs (
   final: prev: {
     pname = "azahar";
     version = "2127.0-alpha3-unstable-2026-10-29";
