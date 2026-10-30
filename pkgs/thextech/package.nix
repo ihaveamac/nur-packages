@@ -25,7 +25,7 @@ let
     version = fullVersion;
 
     src = fetchzip {
-      url = "https://github.com/TheXTech/TheXTech/releases/download/v${versionNoHotfix}/thextech-full-src-v${versionNoHotfix}.tar.bz2";
+      url = "https://github.com/TheXTech/TheXTech/releases/download/v${version}/thextech-full-src-v${versionNoHotfix}.tar.bz2";
       hash = "sha256-cCvN0XAKMx4BCqGUothE3fpEGuUyW68MyNtvqK9mHFE=";
     };
     #src = fetchFromGitHub {
