@@ -3,11 +3,13 @@
   fetchFromGitHub,
   stdenv,
   rustPlatform,
-  fuse,
+  #fuse,
   pkg-config,
-  withFUSE ? !stdenv.hostPlatform.isWindows,
+  #withFUSE ? !stdenv.hostPlatform.isWindows,
+  withFUSE ? false, # currently not usable
 }:
 
+if withFUSE then throw "withFUSE cannot be used due to the removal of fuse_2 from nixpkgs" else
 rustPlatform.buildRustPackage rec {
   pname = "save3ds";
   version = "1.4.0";
@@ -22,7 +24,7 @@ rustPlatform.buildRustPackage rec {
   cargoHash = "sha256-YmfSF/kBrA7EQqFd/QSbx6ldvGfJaGs/yofH+CVOp5c=";
   buildNoDefaultFeatures = !withFUSE;
 
-  buildInputs = lib.optional (withFUSE) fuse;
+  #buildInputs = lib.optional (withFUSE) fuse;
   nativeBuildInputs = [ pkg-config ];
 
   meta = with lib; {
