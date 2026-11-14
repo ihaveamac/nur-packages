@@ -4,7 +4,7 @@
   stdenv,
 }:
 rec {
-  version = "evi10.0-preview-0-unstable-2026-11-05";
+  version = "evi10.0-preview-0-unstable-2026-11-10";
 
   outputs = [
     "out"
@@ -15,8 +15,8 @@ rec {
     domain = "codeberg.org";
     owner = "evi-editor";
     repo = "evi";
-    rev = "0837ef70cda380ac0a174b5ba93cf64dd7f7da32";
-    hash = "sha256-zoGucFEQLri9o4WojUs6G1HWeuwTYbiioC+krrvjYuk=";
+    rev = "135838812fe3c2be4eb0055c864af29c51b05e3f";
+    hash = "sha256-syXhxzZZhDD/ujelG5MBqoruIReiWJN4V7r6doKxDO4=";
   };
 
   enableParallelBuilding = true;
