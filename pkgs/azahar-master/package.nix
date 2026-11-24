@@ -9,12 +9,12 @@
 (azahar.override { ffmpeg_6-headless = ffmpeg_7-headless; }).overrideAttrs (
   final: prev: {
     pname = "azahar";
-    version = "2127.0-rc5-unstable-2026-11-21";
+    version = "2127.0-unstable-2026-11-23";
     src = fetchFromGitHub {
       owner = "azahar-emu";
       repo = "azahar";
-      rev = "6f293a24daa292bd02b4ffee1a2adb5435e1ae00";
-      hash = "sha256-6rfBlTI2bWcipzf8KrOXr4Qoee2VqHgkZuUc7yK1HeQ=";
+      rev = "4a147c509571a3d16a06abe679fe1339dbbdbfd7";
+      hash = "sha256-26TsPoRSQ9x6z5IL5fDkYEK2uoHkdUAlA/brPrauQiI=";
       fetchSubmodules = true;
     };
 
